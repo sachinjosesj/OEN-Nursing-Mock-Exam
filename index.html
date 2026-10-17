@@ -86,7 +86,7 @@ body {
   padding-right: max(16px, env(safe-area-inset-right, 0px));
   -webkit-font-smoothing: antialiased;
 }
-.wrap { max-width: 920px; margin: 0 auto; padding-block: 30px 50px; }
+.wrap { max-width: 920px; margin: 0 auto; padding-block: 56px 50px; }
 h1, h2, h3 { margin: 0; text-wrap: balance; line-height: 1.3; color: var(--fg); }
 h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.025em; }
 h2 { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.01em; }
@@ -455,7 +455,9 @@ input[type=number]:focus { border-color: var(--accent); outline: 2px solid rgba(
 /* Mobile */
 @media(max-width: 640px) {
   body { font-size: 16px; }
-  .wrap { padding-block: 12px 24px; }
+  .wrap { padding-block: 52px 24px; }
+  .theme-switch { top: 10px; right: 10px; width: 32px; height: 32px; }
+  .theme-switch svg { width: 16px; height: 16px; }
   .bar { padding: 12px; gap: 8px; flex-direction: column; align-items: stretch; }
   .bar .row { justify-content: space-between; gap: 8px; }
   .bar .meta { display: none; } /* Hide 'Exam instructions' etc on mobile to save space */
@@ -475,24 +477,27 @@ input[type=number]:focus { border-color: var(--accent); outline: 2px solid rgba(
 
 /* Floating Theme Switcher */
 .theme-switch {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 48px;
-  height: 48px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background: var(--panel);
   border: 1px solid var(--line);
   color: var(--fg);
   display: grid;
   place-items: center;
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-sm);
   z-index: 100;
-  font-size: 1.25rem;
   transition: transform 0.2s, background 0.2s;
 }
+.theme-switch svg {
+  width: 18px;
+  height: 18px;
+}
 .theme-switch:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   background: var(--sel);
   border-color: var(--accent);
 }
