@@ -883,6 +883,7 @@ const NUM_SETS=Math.min(...byDom.map((l,d)=>Math.floor(l.length/QUOTA[d])));
 const SETS=Array.from({length:NUM_SETS},(_,s)=>byDom.flatMap((list,d)=>list.slice(s*QUOTA[d],(s+1)*QUOTA[d])));
 function weighted(seed){const r=seed?rng(seed):Math.random;return byDom.flatMap((list,d)=>shuffle(list,r).slice(0,QUOTA[d]));}
 const PICKS=[
+  {id:'real_omsb100',name:'OMSB 100 Practice Exam',sub:(typeof OMSB100!=='undefined'?OMSB100.length:100)+' questions, practice exam'},
   {id:'real4',name:'Real-style paper 4 (harder)',sub:REAL4.length+' questions, full blueprint'},
   {id:'real3',name:'Real-style paper 3 (harder)',sub:REAL3.length+' questions, full blueprint'},
   {id:'real2',name:'Real-style paper 2 (harder)',sub:REAL2.length+' questions, full blueprint'},
@@ -897,6 +898,7 @@ function questionsFor(id){
   if(id==='real2')return REAL2.map(q=>({...q}));
   if(id==='real3')return REAL3.map(q=>({...q}));
   if(id==='real4')return REAL4.map(q=>({...q}));
+  if(id==='real_omsb100'||id==='omsb100')return (typeof OMSB100!=='undefined'?OMSB100:[]).map((q,i)=>({...q,id:q.id!==undefined?q.id:i}));
   if(id.startsWith('set'))return SETS[+id.slice(3)];
   if(id==='rand')return weighted();
   if(id==='full')return BANK.map((q,i)=>({...q,id:i}));
