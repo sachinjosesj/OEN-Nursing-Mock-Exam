@@ -3,3 +3,1211 @@ const REAL=[{"d": 2, "q": "Which patient should the nurse assess FIRST after rec
 const REAL2=[{"d": 2, "q": "A patient has BP 230/130, a severe headache and new confusion. What is the PRIORITY treatment goal?", "o": ["Lower the BP gradually with an IV agent, by no more than about 25% in the first hour", "Lower the BP to normal within minutes using a rapid-acting oral dose", "Give an oral antihypertensive and recheck the BP again after about six hours", "Keep the patient flat and withhold treatment until the severe headache settles"], "a": 0, "r": "In hypertensive emergency, BP is lowered gradually to avoid ischaemia from too-rapid reduction.", "id": 2000}, {"d": 2, "q": "A patient has sharp chest pain that eases when sitting forward and a friction rub on auscultation. Which nursing action is appropriate?", "o": ["Lay the patient flat and apply a heating pad to the chest wall for comfort", "Give an extra nitroglycerin dose and encourage gentle exercise to improve flow", "Restrict all analgesia so that the pain pattern can be monitored closely", "Position the patient upright and leaning forward, and give prescribed NSAIDs"], "a": 3, "r": "These are signs of pericarditis. Leaning forward relieves the pain, and NSAIDs are first-line.", "id": 2001}, {"d": 2, "q": "After a stab wound, a patient has muffled heart sounds, distended neck veins and BP 82/50. What should the nurse prepare for?", "o": ["Immediate synchronised cardioversion", "Emergency pericardiocentesis", "Intravenous diuretic infusion", "Oral anticoagulant therapy"], "a": 1, "r": "Beck's triad (muffled sounds, JVD, hypotension) signals tamponade, which needs urgent drainage.", "id": 2002}, {"d": 2, "q": "A patient has sudden tearing chest pain radiating to the back, and the BP differs between arms. What does the nurse expect?", "o": ["Anticoagulation with heparin followed by early walking and discharge planning", "Fibrinolytic therapy within the first hour followed by observation on the ward", "Strict rest, IV beta-blocker and pain control to lower heart rate and BP", "Oral analgesics and discharge with outpatient follow-up in two weeks"], "a": 2, "r": "This suggests aortic dissection. Lowering shear stress with beta-blockers is critical. Anticoagulants and thrombolytics are dangerous.", "id": 2003}, {"d": 2, "q": "A patient with peripheral arterial disease has calf pain on walking. Which teaching is correct?", "o": ["Avoid all walking so that the legs are protected from further pain", "Elevate the legs above the heart at all times, including when sleeping", "Cross the legs when sitting to improve the circulation to the feet", "Walk until the pain begins, rest, then continue walking"], "a": 3, "r": "Supervised intermittent walking builds collateral circulation. Crossing the legs and elevating them worsens arterial flow.", "id": 2004}, {"d": 2, "q": "A patient with a venous leg ulcer asks how to speed healing. What is the BEST advice?", "o": ["Keep the leg dependent to increase blood flow", "Use compression therapy as prescribed", "Apply a tight bandage only at night", "Avoid walking to protect the ulcer"], "a": 1, "r": "Compression and elevation reduce venous hypertension. Compression is contraindicated if arterial disease is severe.", "id": 2005}, {"d": 2, "q": "A patient with pneumonia has a productive cough and SpO2 93%. Which intervention is MOST helpful?", "o": ["Restrict oral fluids to reduce secretions", "Position flat to rest the lungs", "Give a cough suppressant to improve sleep", "Position upright and encourage coughing"], "a": 3, "r": "Upright position, deep breathing and fluids help clear secretions. Suppressants retain them.", "id": 2006}, {"d": 2, "q": "After a thoracentesis, how should the nurse position the patient and what should be observed?", "o": ["On the affected side, watching for a fever and a raised white cell count only", "On the unaffected side, watching for respiratory distress and pneumothorax", "Flat supine with the head down, watching for headache and neck stiffness", "Prone with the arms raised, watching for urinary retention and back pain"], "a": 1, "r": "Lying on the unaffected side helps the lung re-expand and the puncture site seal. Watch for pneumothorax.", "id": 2007}, {"d": 2, "q": "A patient with ARDS remains severely hypoxaemic on ventilation. Which intervention improves oxygenation?", "o": ["Supine positioning with high tidal volumes and deep sedation", "Left lateral position with sedation withdrawn and spontaneous breathing", "Prone positioning with lung-protective ventilation", "Repeated fluid boluses to improve lung perfusion and urine output"], "a": 2, "r": "Prone positioning and low tidal volumes improve outcomes in ARDS.", "id": 2008}, {"d": 2, "q": "A patient with an ulcerative colitis flare has 12 bloody stools a day. Which assessment is the PRIORITY?", "o": ["Fluid and electrolyte status", "Skin colour and nail bed appearance", "Ability to ambulate without help", "Dietary preferences and meal times"], "a": 0, "r": "Large volume losses cause dehydration and electrolyte disturbance, which are the immediate risks.", "id": 2009}, {"d": 2, "q": "A patient with GERD asks for lifestyle advice. Which is correct?", "o": ["Lie flat after meals to aid digestion", "Eat large meals to reduce reflux between them", "Take frequent peppermint drinks to relax the stomach", "Avoid eating within three hours of lying down"], "a": 3, "r": "Reducing reflux means avoiding late meals, elevating the head and avoiding triggers such as peppermint.", "id": 2010}, {"d": 2, "q": "A patient with suspected appendicitis has severe right lower quadrant pain. Which action is contraindicated?", "o": ["Keeping the patient nil by mouth until reviewed", "Applying a heating pad to the abdomen", "Starting IV fluids as prescribed by the surgeon", "Reporting rebound tenderness to the surgeon"], "a": 1, "r": "Heat or laxatives may cause rupture. The patient should be NPO and assessed for surgery.", "id": 2011}, {"d": 2, "q": "A patient with a bowel obstruction has vomiting and abdominal distension. Which intervention is expected?", "o": ["High-fibre diet with oral laxatives to restart bowel movement", "Nasogastric decompression with IV fluids and nil by mouth", "Oral contrast then discharge home with a follow-up appointment", "Enema every hour until the bowels open and the pain settles"], "a": 1, "r": "Decompression and fluid replacement are the initial treatment. Laxatives or enemas risk perforation.", "id": 2012}, {"d": 2, "q": "A patient has right upper quadrant pain after fatty meals and a positive Murphy sign. What diet advice is appropriate?", "o": ["A high-fat diet to flush the gallbladder", "Fasting for three days each week", "Large meals twice daily", "A low-fat diet with small meals"], "a": 3, "r": "Fat triggers gallbladder contraction against stones. A low-fat diet reduces attacks.", "id": 2013}, {"d": 2, "q": "A nurse is caring for a patient with hepatitis B. Which precaution is correct?", "o": ["Airborne isolation in a negative-pressure room", "Use standard precautions, including gloves", "Droplet precautions with a mask for all contact", "Strict reverse isolation"], "a": 1, "r": "Hepatitis B spreads through blood and body fluids. Standard precautions apply, and household contacts need vaccination.", "id": 2014}, {"d": 2, "q": "A patient with chronic kidney disease asks about diet. Which advice is correct?", "o": ["Increase potassium-rich fruit and use salt substitutes for flavour", "Double the protein intake to replace the losses in the urine", "Limit potassium, phosphorus and sodium, with adequate calories", "Drink as much fluid as possible each day to flush the kidneys"], "a": 2, "r": "CKD requires limits on potassium, phosphorus and sodium, with adequate energy intake.", "id": 2015}, {"d": 2, "q": "A patient with kidney stones asks about prevention. What is the BEST advice?", "o": ["Restrict all fluids to reduce urine flow", "Take extra calcium supplements", "Increase salt intake", "Drink at least 2.5–3 L of fluid daily"], "a": 3, "r": "High fluid intake dilutes urine and reduces stone formation.", "id": 2016}, {"d": 2, "q": "A patient with fever, flank pain and dysuria is suspected of pyelonephritis. Which expected order is correct?", "o": ["Fluid restriction and a diuretic", "Urine culture and antibiotics", "Bed rest without antibiotics", "A urinary catheter for every patient"], "a": 1, "r": "Pyelonephritis needs cultures and antibiotics, along with adequate hydration.", "id": 2017}, {"d": 2, "q": "A patient with severe hypothyroidism is hypothermic, bradycardic and unresponsive. Which action is correct?", "o": ["Give IV levothyroxine as prescribed", "Apply a hot water bottle for rapid warming", "Give IV furosemide for fluid overload", "Give sedatives to keep the patient calm"], "a": 0, "r": "This is myxedema coma. IV thyroid hormone is required, and rapid active warming can cause vasodilation and collapse.", "id": 2018}, {"d": 2, "q": "A patient with Cushing syndrome is admitted. Which assessment is the PRIORITY?", "o": ["Bowel sounds only, at each shift", "Visual acuity alone, every four hours", "Blood glucose and signs of infection", "Skin turgor at the forearm each morning"], "a": 2, "r": "Excess cortisol raises glucose and suppresses immunity, so monitor for hyperglycaemia and infection.", "id": 2019}, {"d": 2, "q": "A patient after pituitary surgery passes 6 L of dilute urine a day. What does the nurse expect?", "o": ["Fluid restriction and a thiazide diuretic with daily weights", "Insulin and a carbohydrate diet with blood glucose monitoring", "Desmopressin as prescribed, with urine output and specific gravity monitoring", "Potassium supplements only, with daily serum potassium checks"], "a": 2, "r": "Diabetes insipidus is treated with desmopressin and careful fluid balance.", "id": 2020}, {"d": 2, "q": "A patient has hypokalaemia (K 2.8 mmol/L). Which ECG finding does the nurse expect?", "o": ["U waves and flattened T waves", "Tall, peaked T waves and a short QT", "Widened QRS with a sine-wave pattern", "A normal ECG with no changes"], "a": 0, "r": "Low potassium produces U waves, flat T waves and arrhythmias. Peaked T waves are hyperkalaemia.", "id": 2021}, {"d": 2, "q": "A patient is prescribed oral iron. Which teaching is correct?", "o": ["Take it with milk and antacids to avoid nausea", "Expect pale clay-coloured stools", "Take it with vitamin C and expect dark stools", "Take it with tea for better absorption"], "a": 2, "r": "Vitamin C improves absorption. Calcium and tea reduce it. Dark stools are expected.", "id": 2022}, {"d": 2, "q": "A patient with sickle cell disease has a pain crisis. What is the PRIORITY intervention?", "o": ["Hydration, oxygen if hypoxic and prompt analgesia", "Fluid restriction and rest only, with analgesia withheld", "Cold packs applied to the painful joints for comfort", "A delay in opioids until the pain has been verified"], "a": 0, "r": "Hydration, oxygen and early analgesia reduce sickling. Cold worsens vasoconstriction.", "id": 2023}, {"d": 2, "q": "A patient with leukaemia has a neutrophil count of 0.4 × 10⁹/L. Which action is correct?", "o": ["Place in a protective environment and monitor temperature closely", "Allow fresh flowers and fruit baskets from visitors to cheer the patient", "Take rectal temperatures to improve the accuracy of readings", "Share a room with a patient who has a cold to save beds"], "a": 0, "r": "Neutropenia raises infection risk. Avoid fresh flowers, rectal temperatures and sick contacts.", "id": 2024}, {"d": 2, "q": "A patient with rheumatoid arthritis has morning stiffness. Which advice is BEST?", "o": ["A warm shower on waking, followed by gentle range-of-motion exercise", "Complete bed rest until the morning stiffness has ended", "Cold compresses applied to all the joints for an hour on waking", "Avoid all movement of the affected joints until the pain stops"], "a": 0, "r": "Warmth and gentle movement reduce stiffness. Prolonged rest increases it.", "id": 2025}, {"d": 2, "q": "A nurse is teaching a woman about osteoporosis prevention. Which statement shows understanding?", "o": ["\"I will avoid all exercise to protect my bones from breaking.\"", "\"I will take calcium and vitamin D and do weight-bearing exercise.\"", "\"I will drink more cola each day for extra phosphate.\"", "\"I will sunbathe at midday without protection to make vitamin D.\""], "a": 1, "r": "Calcium, vitamin D and weight-bearing exercise strengthen bone.", "id": 2026}, {"d": 2, "q": "A patient is 1 day after a total hip replacement. Which instruction is correct?", "o": ["Sit in low chairs to rest the hip", "Cross the legs to improve comfort", "Bend to put on shoes unaided", "Avoid bending the hip beyond 90°"], "a": 3, "r": "Hip flexion beyond 90°, adduction and internal rotation risk dislocation.", "id": 2027}, {"d": 2, "q": "A patient after cataract surgery asks about activity. Which advice is correct?", "o": ["Avoid bending over and heavy lifting", "Rub the eye gently to relieve irritation", "Lie on the operated side while sleeping", "Swim to speed healing"], "a": 0, "r": "Bending, lifting and rubbing raise intraocular pressure or risk injury to the eye.", "id": 2028}, {"d": 2, "q": "A patient with Parkinson's disease has a shuffling gait. Which instruction helps?", "o": ["Take small, quick steps with the feet kept close together", "Lean forward while walking to gain speed and momentum", "Concentrate on lifting the feet and walking with a wide-based gait", "Walk only on soft carpets to reduce the noise of the steps"], "a": 2, "r": "Conscious lifting of the feet and a wide base improve stability. Leaning forward worsens festination.", "id": 2029}, {"d": 0, "q": "A patient at high risk of falling is confused and tries to get up alone. Which intervention is MOST effective?", "o": ["Hourly rounding with the call bell in reach and a bed alarm", "Restraining both wrists so that the patient cannot leave the bed", "Asking the patient to remember to call before standing up", "Raising all four bed rails so that she cannot climb out"], "a": 0, "r": "Rounding, alarms and environmental safety reduce falls. Restraints and full rails raise injury risk.", "id": 2030}, {"d": 0, "q": "A physician gives a verbal order by phone for an urgent medication. What should the nurse do?", "o": ["Give the dose first and write the order up at the end of shift", "Ask a colleague to remember the order and give it for you", "Write it down, read it back to confirm, and have it signed later", "Repeat it from memory when the physician next visits the ward"], "a": 2, "r": "Read-back confirms accuracy. The prescriber must cosign according to policy.", "id": 2031}, {"d": 0, "q": "A nurse is asked to perform a procedure she has never been trained to do. What is the BEST action?", "o": ["Decline politely, explain the limit of her competence and request support", "Perform it carefully and ask for help only if a problem occurs", "Watch a colleague do it once and then carry on unsupervised", "Agree so as to avoid delaying the patient's care"], "a": 0, "r": "Nurses practise within their competence and seek training or supervision first.", "id": 2032}, {"d": 0, "q": "An unconscious patient has a valid DNR order and advance directive. His family asks the nurse to start CPR if his heart stops. What should the nurse do?", "o": ["Start CPR to satisfy the family and discuss it afterwards", "Ask the family to decide at the time of the arrest", "Ignore the directive because the patient cannot speak", "Follow the valid directive and inform the physician and family"], "a": 3, "r": "A valid advance directive reflects the patient's own wishes and stays in force. Support the family through communication.", "id": 2033}, {"d": 0, "q": "A patient refuses her morning antihypertensive. What should the nurse do?", "o": ["Crush the tablet into her food without telling her", "Explore the reason, document the refusal and inform the prescriber", "Leave it at the bedside to take later when she is ready", "Give it later when she is distracted and not likely to notice"], "a": 1, "r": "Competent patients may refuse. Explore concerns, document and inform the prescriber. Covert medication is not acceptable.", "id": 2034}, {"d": 0, "q": "Which practice is correct for disposing of a used needle?", "o": ["Recap it carefully with two hands before carrying it to the bin", "Place it unrecapped in a puncture-resistant container at the point of use", "Break the needle from the syringe and discard both separately", "Place it in the general waste bag inside a sealed glove"], "a": 1, "r": "Recapping and carrying used sharps cause needlestick injuries. Dispose of them immediately in a sharps container.", "id": 2035}, {"d": 0, "q": "A nurse has four tasks. Which should she do FIRST?", "o": ["Complete discharge paperwork for a patient waiting to leave", "Update the care plan for a stable patient", "Help a patient who is independent to wash", "Give the IV antibiotic due in 10 minutes to a patient with sepsis"], "a": 3, "r": "Time-critical treatment for a deteriorating patient takes priority over routine tasks.", "id": 2036}, {"d": 0, "q": "Which chart entry is BEST?", "o": ["\"Patient seems uncomfortable and is complaining again.\"", "\"Patient is difficult and attention-seeking about pain.\"", "\"Appears to be in pain, probably nothing serious.\"", "\"Reports sharp pain 7/10 in the left lower abdomen since 10:00.\""], "a": 3, "r": "Documentation should be objective, specific and free of opinion or labels.", "id": 2037}, {"d": 0, "q": "A patient who speaks little English must consent to surgery. Who should interpret?", "o": ["The patient's 12-year-old son", "A bilingual cleaner from the ward", "The patient's friend waiting in the corridor", "A qualified medical interpreter"], "a": 3, "r": "Qualified interpreters ensure accurate, confidential information. Family and untrained staff can mistranslate or filter.", "id": 2038}, {"d": 0, "q": "A patient is hard of hearing. Which communication strategy is BEST?", "o": ["Face the patient, speak clearly at a normal pace and reduce background noise", "Shout from a distance so that the words carry across the room", "Speak quickly to save time before the next patient", "Talk to the relatives instead of the patient"], "a": 0, "r": "Face-to-face, clear speech and a quiet setting improve understanding. Shouting distorts speech.", "id": 2039}, {"d": 0, "q": "A patient has a PCA pump after surgery. Which statement is correct?", "o": ["The relatives may press it when the patient sleeps", "The nurse should press it hourly to prevent pain", "Only the patient may press the button", "The button can be pressed freely during transfers"], "a": 2, "r": "Dosing by others bypasses the safety design and risks overdose.", "id": 2040}, {"d": 0, "q": "After discharge teaching about warfarin, which method BEST confirms understanding?", "o": ["Ask the patient to explain the plan in his own words (teach-back)", "Ask whether he understands and accept a nod", "Give a printed leaflet and leave the room", "Repeat the same teaching more quickly"], "a": 0, "r": "Teach-back checks comprehension rather than assuming it.", "id": 2041}, {"d": 0, "q": "After a sentinel event, which process identifies system causes?", "o": ["Root cause analysis", "Annual performance appraisal", "Peer disciplinary hearing", "Patient satisfaction survey"], "a": 0, "r": "Root cause analysis seeks system failures instead of blaming individuals.", "id": 2042}, {"d": 0, "q": "A patient asks to read his medical chart. What is the BEST response?", "o": ["Refuse because the chart belongs to the hospital", "Hand over the chart and leave him alone with it", "Facilitate access according to policy and inform the physician", "Read selected parts aloud, leaving out any bad news"], "a": 2, "r": "Patients have a right to their records. Access follows organisational procedure.", "id": 2043}, {"d": 0, "q": "Before starting a blood transfusion, which check is REQUIRED?", "o": ["One nurse checks the label at the nurses' station", "Two nurses verify the patient and unit identification at the bedside", "The patient's family reads the label aloud", "The blood bank confirms the unit by phone only"], "a": 1, "r": "Independent bedside double-checks prevent ABO incompatibility errors.", "id": 2044}, {"d": 0, "q": "Which medicines are high-alert drugs requiring an independent double check?", "o": ["Oral paracetamol and vitamins", "Insulin and heparin infusions", "Topical creams and eye lubricants", "Antacids and laxatives"], "a": 1, "r": "High-alert drugs carry a greater risk of serious harm if misused.", "id": 2045}, {"d": 0, "q": "A patient is turned after spinal surgery. Which technique is correct?", "o": ["Twist the shoulders first and then follow with the hips", "Log-roll as one unit with a draw sheet and pillows between the knees", "Ask the patient to pull on the bed rail and swing around", "Lift under the arms while the patient bends the spine"], "a": 1, "r": "Spinal alignment must be preserved, so turn the whole body together.", "id": 2046}, {"d": 0, "q": "The ICU has one bed and two patients who need it. The nurse supports allocating it to the patient with the better chance of survival. Which principle is this?", "o": ["Autonomy", "Fidelity", "Justice", "Veracity"], "a": 2, "r": "Justice involves the fair distribution of limited resources.", "id": 2047}, {"d": 0, "q": "A female patient asks for a female nurse for intimate care. What is the BEST response?", "o": ["Explain that all nurses are equally professional and proceed", "Ask her husband to decide on her behalf", "Refuse because requests may not be accommodated", "Arrange a female nurse where possible and respect her modesty"], "a": 3, "r": "Respecting cultural and personal preferences supports dignity and trust.", "id": 2048}, {"d": 0, "q": "A patient with a latex allergy needs care. What should the nurse do?", "o": ["Use powder-free latex gloves and monitor for a reaction", "Use non-latex gloves and remove latex items from the area", "Give an antihistamine before every procedure", "Cover latex items with a layer of tape"], "a": 1, "r": "Avoid all latex exposure. Reducing powder alone does not remove the risk.", "id": 2049}, {"d": 1, "q": "A nurse researcher states, \"There is no difference in infection rates between the two dressings.\" What is this statement?", "o": ["A null hypothesis", "A research question", "An alternative hypothesis", "A conceptual framework"], "a": 0, "r": "The null hypothesis states there is no difference, and it is tested statistically.", "id": 2050}, {"d": 1, "q": "A study compares smoking status (yes/no) with the presence of lung disease (yes/no). Which test is appropriate?", "o": ["Chi-square test", "Independent t-test", "Pearson correlation", "Analysis of variance"], "a": 0, "r": "Chi-square tests the association between two categorical variables.", "id": 2051}, {"d": 1, "q": "In a qualitative study, interviews continue until no new themes emerge. What is this called?", "o": ["Random assignment", "Statistical power", "Data saturation", "Blinding"], "a": 2, "r": "Saturation means further data add no new information.", "id": 2052}, {"d": 1, "q": "A trial reports a relative risk of 0.5 for infection with a new dressing. What does this mean?", "o": ["The dressing doubles the risk of infection", "There is no difference between the groups", "The risk of infection is halved in the treatment group", "Half of all patients developed an infection"], "a": 2, "r": "A relative risk of 0.5 means the treatment group has half the risk of the control group.", "id": 2053}, {"d": 1, "q": "A confidence interval around a study result is very wide. What does this indicate?", "o": ["The result is highly accurate", "The sample must have been very large", "The study had no bias", "The estimate is imprecise"], "a": 3, "r": "Wide intervals reflect uncertainty, often from a small sample.", "id": 2054}, {"d": 3, "q": "A woman at 29 weeks has regular contractions and cervical change. Which drug is given to improve fetal lung maturity?", "o": ["Betamethasone", "Oxytocin", "Methyldopa", "Misoprostol"], "a": 0, "r": "Antenatal corticosteroids speed fetal lung maturity when preterm birth is likely.", "id": 2055}, {"d": 3, "q": "A woman at 34 weeks has sudden painful dark vaginal bleeding with a rigid, tender uterus. What should the nurse do?", "o": ["Perform a vaginal examination to assess how far the cervix has dilated and the fetal position", "Monitor mother and fetus, secure large-bore IV access and prepare for urgent birth", "Give an oral analgesic and let her rest at home on her left side until the bleeding stops", "Start oxytocin to bring on labour and watch for progress through the rest of the night"], "a": 1, "r": "This suggests placental abruption, which can cause maternal shock and fetal compromise.", "id": 2056}, {"d": 3, "q": "The fetal head has delivered but the shoulders are stuck. What is the nurse's role?", "o": ["Call for help and assist the McRoberts position with suprapubic pressure", "Pull firmly on the head to free the shoulders as quickly as possible", "Apply fundal pressure to push the baby out with the next contraction", "Ask the mother to stop pushing and wait for the next contraction to resolve it"], "a": 0, "r": "Shoulder dystocia is an emergency. Fundal pressure and traction make it worse.", "id": 2057}, {"d": 3, "q": "A woman has an episiotomy repair after birth. Which advice is BEST for perineal comfort?", "o": ["Apply heat for the first 24 hours, then use ice packs for any remaining swelling", "Apply ice packs for the first 24 hours, then use warm sitz baths", "Sit on a rubber ring continuously through the day and night to relieve all pressure", "Avoid washing the area for a week to protect the stitches from getting wet"], "a": 1, "r": "Cold reduces swelling early on. Warm sitz baths then promote healing and comfort.", "id": 2058}, {"d": 3, "q": "A newborn appears jaundiced at 18 hours of age. What should the nurse do?", "o": ["Reassure the mother that physiological jaundice is expected and will appear on day two", "Place the baby near a sunny window and record the colour in the daily notes", "Wait for the next scheduled weight check to reassess the skin colour and feeding", "Report it immediately, because jaundice within 24 hours is pathological"], "a": 3, "r": "Jaundice in the first 24 hours suggests haemolysis and needs urgent bilirubin measurement.", "id": 2059}, {"d": 3, "q": "Which advice about umbilical cord care is correct?", "o": ["Cover the stump with an airtight dressing and leave it in place for a week", "Apply powder to the stump after every nappy change to keep it dry", "Pull the stump gently each day to hasten its separation from the skin", "Keep the stump clean and dry and fold the nappy below it"], "a": 3, "r": "Dry cord care with air exposure helps it separate and lowers infection risk.", "id": 2060}, {"d": 3, "q": "A woman at 30 weeks has a BP of 142/92 on two readings, with no proteinuria. What is the nurse's plan?", "o": ["Reassure her that the readings are normal in late pregnancy and need no review", "Monitor BP, urine protein and symptoms, and teach her the warning signs", "Start magnesium sulfate and arrange an immediate induction of labour tonight", "Advise her to lie flat at home and stop all further antenatal clinic visits"], "a": 1, "r": "This is gestational hypertension. It needs close surveillance for progression to pre-eclampsia.", "id": 2061}, {"d": 3, "q": "Which situation is a contraindication to breastfeeding?", "o": ["The infant has galactosaemia", "The mother has mastitis", "The mother has a mild cold", "The mother takes paracetamol"], "a": 0, "r": "Infants with galactosaemia cannot metabolise lactose and must not receive breast milk.", "id": 2062}, {"d": 3, "q": "A perimenopausal woman asks how to manage hot flushes. Which advice is helpful?", "o": ["Wear heavy clothing to sweat the symptoms out of the body and avoid fans", "Increase caffeine intake and take hot drinks to stay alert during the day", "Keep the bedroom warm at night and use extra blankets to improve her sleep", "Wear light layers and avoid triggers such as caffeine and spicy food"], "a": 3, "r": "Layering and avoiding triggers reduces the frequency and severity of hot flushes.", "id": 2063}, {"d": 3, "q": "Which advice before conception reduces the risk of neural tube defects?", "o": ["Take extra vitamin A in large daily doses before and during early pregnancy", "Take folic acid daily before conception and in early pregnancy", "Avoid all dairy products and fortified foods throughout the whole pregnancy", "Take iron tablets only after the first scan, with no other supplements"], "a": 1, "r": "Folic acid taken before and during early pregnancy lowers neural tube defect risk.", "id": 2064}, {"d": 4, "q": "Which health problem should be screened for in an infant with Down syndrome?", "o": ["Congenital heart defects", "Rickets", "Scurvy", "Cystic fibrosis"], "a": 0, "r": "About half of infants with Down syndrome have congenital heart disease.", "id": 2065}, {"d": 4, "q": "A newborn has hypospadias. What should the nurse teach the parents?", "o": ["Circumcise early to reduce the risk of infection before the planned surgery", "Expect surgery to be needed only after school age, with no earlier review", "Do not circumcise the baby, because the foreskin may be needed for repair", "Hypospadias normally corrects itself without surgery as the child grows older"], "a": 2, "r": "The foreskin may be used in repair, so circumcision is avoided.", "id": 2066}, {"d": 4, "q": "A child who had untreated strep throat now has a new heart murmur, joint pain and chorea. Which long-term treatment is expected?", "o": ["Prophylactic penicillin to prevent further rheumatic fever attacks", "Long-term oral steroids to suppress the joint inflammation and the murmur", "Lifelong aspirin to prevent clot formation inside the damaged heart valves", "No further treatment, because the symptoms will pass without any problems"], "a": 0, "r": "Rheumatic fever recurs with new strep infections, so prophylactic penicillin protects the heart valves.", "id": 2067}, {"d": 4, "q": "Which medicine should be avoided in a child with a viral illness because of the risk of Reye syndrome?", "o": ["Paracetamol", "Oral rehydration solution", "Ibuprofen", "Aspirin"], "a": 3, "r": "Aspirin with viral illness (influenza, chickenpox) is associated with Reye syndrome.", "id": 2068}, {"d": 4, "q": "A toddler says \"no\" to every request. What is the BEST approach?", "o": ["Give in to all requests to avoid any conflict at home", "Punish each refusal firmly to enforce obedience quickly", "Offer limited choices, such as which cup to use", "Explain at length why the child must always comply"], "a": 2, "r": "Limited choices support independence within safe limits.", "id": 2069}, {"d": 4, "q": "Which car seat advice is correct for a 12-month-old?", "o": ["Use a forward-facing seat on the front passenger seat for easier supervision", "Hold the baby on a parent's lap with the seat belt around them both", "Use a rear-facing seat in the back, for as long as the seat allows", "Use an adult seat belt with a firm cushion placed under the child"], "a": 2, "r": "Rear-facing seats best protect an infant's head and spine in a crash.", "id": 2070}, {"d": 4, "q": "The nurse explains BCG vaccination to a parent. Which disease does it protect against?", "o": ["Measles", "Hepatitis B", "Rotavirus diarrhoea", "Tuberculosis"], "a": 3, "r": "BCG gives protection against severe forms of tuberculosis in children.", "id": 2071}, {"d": 4, "q": "A baby is recovering after cleft lip repair. Which instruction is MOST important?", "o": ["Let the baby suck vigorously on a standard teat from the first day after surgery", "Place the baby prone after every feed to prevent choking on the milk", "Keep the suture line clean and prevent the baby touching or pulling at it", "Allow the baby to put toys in the mouth to soothe any pain that is present"], "a": 2, "r": "Protecting the suture line prevents wound breakdown and scarring.", "id": 2072}, {"d": 4, "q": "An infant with a ventriculoperitoneal shunt has vomiting, irritability and a bulging fontanelle. What does this suggest?", "o": ["Shunt malfunction with raised intracranial pressure", "Normal teething with mild irritability and some dribbling", "A simple viral gastroenteritis with vomiting and diarrhoea", "Dehydration from poor oral intake over the last two days"], "a": 0, "r": "These are classic signs of shunt blockage and need urgent review.", "id": 2073}, {"d": 4, "q": "A child has a suspected Wilms tumour. What should the nurse avoid?", "o": ["Measuring the blood pressure", "Weighing the child", "Palpating the abdomen", "Collecting a urine sample"], "a": 2, "r": "Palpation can spread tumour cells and risk rupture.", "id": 2074}, {"d": 5, "q": "A patient with chronic alcohol use is admitted confused with ataxia and nystagmus. Which drug is given BEFORE glucose?", "o": ["Thiamine", "Naltrexone", "Haloperidol", "Phenytoin"], "a": 0, "r": "This is Wernicke encephalopathy. Glucose before thiamine can precipitate or worsen it.", "id": 2075}, {"d": 5, "q": "A patient with borderline personality disorder has made superficial cuts on the forearm. Which approach is BEST?", "o": ["Show shock and warn her that she is behaving badly and wasting staff time", "Set consistent limits and stay non-judgemental while treating the wounds", "Ignore the cuts completely to avoid reinforcing the behaviour in the future", "Promise to keep the incident secret from the rest of the clinical team"], "a": 1, "r": "A consistent, calm and non-judgemental approach, with team communication, is needed.", "id": 2076}, {"d": 5, "q": "Which finding BEST distinguishes delirium from dementia?", "o": ["Sudden onset with a fluctuating level of consciousness", "Gradual onset over several months or years with steady decline", "Memory loss with a stable and normal level of alertness", "Normal attention with poor recall of recent events"], "a": 0, "r": "Delirium is acute and fluctuating and is often reversible. Dementia is gradual.", "id": 2077}, {"d": 5, "q": "A patient is prescribed lorazepam. Which teaching is correct?", "o": ["Take it with alcohol to boost the calming effect of the tablets", "Stop it at once if you feel drowsy on the first day of treatment", "Avoid alcohol and driving, and do not stop the drug abruptly", "Share spare tablets with relatives who feel anxious or have trouble sleeping"], "a": 2, "r": "Benzodiazepines cause sedation and dependence. Alcohol adds to CNS depression, and abrupt withdrawal can cause seizures.", "id": 2078}, {"d": 5, "q": "A patient is taking phenelzine (MAOI). Which food should be avoided?", "o": ["Fresh fruit and vegetables", "Aged cheese and cured meats", "Plain rice and pasta", "Fresh milk and boiled eggs"], "a": 1, "r": "Tyramine-rich foods can cause a hypertensive crisis with MAOIs.", "id": 2079}, {"d": 5, "q": "A patient in a manic episode will not sit to eat and is losing weight. Which intervention is BEST?", "o": ["Insist that the patient sits at the table until the whole meal is finished", "Offer low-calorie drinks only, to avoid overstimulating the patient further", "Withhold meals until the patient has calmed down and is more cooperative", "Provide high-calorie finger foods that can be eaten while moving"], "a": 3, "r": "Portable, nutritious foods meet needs without confrontation.", "id": 2080}, {"d": 5, "q": "A patient believes the staff are poisoning his food. What is the BEST response?", "o": ["Tell him firmly and repeatedly that this belief is false and untrue", "Agree that the food may well be poisoned and offer to test it", "Hide his meals so that he cannot refuse to eat or drink them", "Offer sealed, unopened food and stay calm without arguing"], "a": 3, "r": "Do not argue with or agree with delusions. Offer reassurance and practical options.", "id": 2081}, {"d": 5, "q": "A patient is becoming angry and pacing the corridor. Which action is BEST?", "o": ["Stand directly in front of him, block the corridor and give firm commands to stop", "Stay at a safe distance, speak calmly and offer choices, with a clear exit available", "Touch his arm to reassure him and walk beside him until he calms down", "Ask other patients to join in and calm him down while staff step back and wait"], "a": 1, "r": "Calm communication, space and an exit route reduce the risk of violence.", "id": 2082}, {"d": 5, "q": "Which finding indicates opioid withdrawal?", "o": ["Pinpoint pupils and marked sedation", "Dilated pupils, yawning and muscle aches", "Sleepiness with a slow heart rate", "Elevated mood with constricted pupils"], "a": 1, "r": "Opioid withdrawal causes mydriasis, yawning, aches, diarrhoea and restlessness. Pinpoint pupils suggest intoxication.", "id": 2083}, {"d": 5, "q": "A survivor of a road accident has nightmares and flashbacks six weeks later. Which treatment is recommended first?", "o": ["Aversion therapy for the intrusive images", "An extended rest cure in a quiet room", "Trauma-focused cognitive behavioural therapy", "Insulin coma therapy under supervision"], "a": 2, "r": "Trauma-focused psychological therapy is first-line for PTSD.", "id": 2084}, {"d": 6, "q": "A cardiac rehabilitation programme after a myocardial infarction is an example of which level of prevention?", "o": ["Tertiary prevention", "Primary prevention", "Secondary prevention", "Health protection"], "a": 0, "r": "Rehabilitation limits disability and prevents recurrence after disease has occurred, which is tertiary prevention.", "id": 2085}, {"d": 6, "q": "A community nurse visits an 82-year-old who lives alone and injects insulin. What should the nurse assess FIRST?", "o": ["Whether his neighbours would be willing to visit him on a regular basis", "Whether the home is safe and he can inject insulin correctly", "Whether he would like to move into a residential care home soon", "Which television programmes and radio stations he enjoys listening to"], "a": 1, "r": "Safety and the ability to manage insulin are the immediate risks for a person living alone.", "id": 2086}, {"d": 6, "q": "Which is an example of primary data in a community assessment?", "o": ["Interviews with residents about their health needs", "National mortality statistics published by the health ministry", "Published census reports from the last national census", "Hospital admission records from the district hospital"], "a": 0, "r": "Primary data is collected directly from the community for the assessment.", "id": 2087}, {"d": 6, "q": "A child missed the second dose of a vaccine series by three months. What should the nurse do?", "o": ["Restart the whole series from the very first dose of the vaccine", "Give the second dose now and continue the schedule without restarting", "Skip the second dose and give only the final dose of the series", "Delay all further vaccines for a year before resuming the schedule"], "a": 1, "r": "Interrupted series are resumed. Vaccines do not need to be restarted.", "id": 2088}, {"d": 6, "q": "What is the BEST way to review an older adult's medicines in the community?", "o": ["Ask her to bring all medicines, including OTC and herbal products, for review", "Ask her to write down the medicines that she can remember taking", "Review only the medicines listed from her last clinic visit", "Take the medicines away and replace them with a new prescription"], "a": 0, "r": "A full 'brown bag' review identifies duplication and interactions that cause harm.", "id": 2089}, {"d": 6, "q": "The wife of a man with advanced dementia says she is exhausted and tearful. What is the BEST action?", "o": ["Advise her to keep caring for him because it is her duty as a wife", "Tell her to place him in an institution as soon as possible", "Assess caregiver strain and arrange respite and support services", "Reassure her that she will cope without any extra help or support"], "a": 2, "r": "Caregiver strain is common. Respite and support protect both caregiver and patient.", "id": 2090}, {"d": 6, "q": "Which food-handling practice BEST prevents foodborne illness at large gatherings?", "o": ["Leave cooked food at room temperature for several hours before serving", "Reheat food only until it is just warm to the touch", "Keep hot food above 60 °C and cold food below 5 °C", "Use the same chopping board for raw meat and the salads"], "a": 2, "r": "The danger zone for bacterial growth is 5–60 °C. Keep foods outside it.", "id": 2091}, {"d": 6, "q": "A patient with type 2 diabetes asks how often to have an eye examination. What is correct?", "o": ["Only when the vision becomes blurred or painful", "Once every five years if the sugar is controlled", "An annual dilated retinal examination", "Only after kidney disease has developed as well"], "a": 2, "r": "Diabetic retinopathy is often silent, so yearly screening is needed.", "id": 2092}, {"d": 6, "q": "An older man has difficulty hearing high-pitched voices. Which communication tip is BEST?", "o": ["Speak at a higher pitch to be heard", "Speak at a lower pitch and face him", "Shout clearly from across the room", "Speak quickly to finish the talk sooner"], "a": 1, "r": "Age-related hearing loss affects high frequencies first, so lower pitch helps.", "id": 2093}, {"d": 6, "q": "Which statement describes the main focus of hospice care?", "o": ["Curative treatment aimed at removing the underlying disease completely", "Comfort and quality of life for a person with a limited life expectancy", "Rehabilitation to restore a person to full independence at home", "Long-term residential care for people with stable chronic conditions"], "a": 1, "r": "Hospice focuses on symptom relief and support for patient and family.", "id": 2094}, {"d": 6, "q": "A construction worker in summer heat is dizzy, sweating and nauseous with a normal mental state. What should the nurse do?", "o": ["Give him hot drinks and wrap him in a thick blanket to sweat it out", "Ask him to return to work after five minutes rest in the sun", "Give a large dose of caffeine to improve his alertness at work", "Move him to a cool, shaded area, loosen clothing and give fluids"], "a": 3, "r": "This is heat exhaustion. Cool the person, rehydrate and rest.", "id": 2095}, {"d": 6, "q": "A village's water supply is suspected to be contaminated. What advice is correct for households?", "o": ["Boil water for at least one minute before drinking", "Use the water unboiled for cooking purposes only", "Add flavouring to mask the taste of the water", "Store the water in open containers overnight to settle"], "a": 0, "r": "Boiling kills most waterborne pathogens when treatment is unavailable.", "id": 2096}, {"d": 6, "q": "What is the FIRST step in planning a health education programme?", "o": ["Print leaflets and posters for the community", "Choose the speaker for the first teaching session", "Assess the learning needs of the target group", "Evaluate the outcome of the whole programme"], "a": 2, "r": "Planning begins with a needs assessment of the target audience.", "id": 2097}, {"d": 6, "q": "After a wedding, 40 of the 100 guests developed vomiting and diarrhoea. What is the attack rate?", "o": ["4%", "60%", "14%", "40%"], "a": 3, "r": "Attack rate is cases divided by those exposed: 40 ÷ 100 = 40%.", "id": 2098}, {"d": 6, "q": "Which activity belongs to the disaster PREPAREDNESS phase?", "o": ["Triage of casualties at the scene of the event", "Rebuilding of damaged homes after the disaster", "Counselling of the bereaved families afterwards", "Conducting drills and preparing supply stocks"], "a": 3, "r": "Preparedness includes planning, training and stockpiling before an event occurs.", "id": 2099}];
 const REAL3=[{"d": 2, "q": "A patient with heart failure is being discharged. Which instruction is MOST important?", "o": ["Increase fluids to eight glasses a day to help the kidneys flush out extra water", "Stop the diuretic once the swelling in your ankles has gone away", "Weigh yourself every morning and report a gain of 1–2 kg in a day", "Add salt substitutes containing potassium to every meal you prepare at home"], "a": 2, "r": "Daily weights detect early fluid retention. Report quick gains.", "id": 3000}, {"d": 2, "q": "A patient has a new permanent pacemaker. Which teaching is correct?", "o": ["Resume heavy lifting with that arm after about two days of rest at home", "Avoid raising the affected arm above the shoulder for the first weeks", "Hold a mobile phone against the device for stability when making calls", "Avoid all electrical appliances in the home from now on to prevent interference"], "a": 1, "r": "Early arm movement can dislodge leads. Normal household appliances are safe.", "id": 3001}, {"d": 2, "q": "A patient with a previous heart valve replacement has fever, new murmur and splinter haemorrhages. What does the nurse suspect?", "o": ["Pericarditis", "Pulmonary embolism", "Atrial flutter", "Infective endocarditis"], "a": 3, "r": "Fever, murmur and splinter haemorrhages are classic for infective endocarditis.", "id": 3002}, {"d": 2, "q": "A trauma patient has HR 130, BP 80/50, cool clammy skin and a fractured femur. What is the PRIORITY?", "o": ["Give an oral analgesic for the leg pain and apply a light dressing to the wound site", "Lay the patient flat and ask the relatives for a full history before acting", "Establish two large-bore IV lines and give warmed fluids or blood as ordered", "Send the patient for a leg X-ray before any intravenous treatment is started"], "a": 2, "r": "This is hypovolaemic shock from blood loss. Restore volume promptly before diagnostic tests.", "id": 3003}, {"d": 2, "q": "A patient with COPD asks how to ease breathlessness. Which technique should the nurse teach?", "o": ["Pursed-lip breathing while leaning forward on the arms", "Rapid shallow breathing through the mouth whenever you feel anxious", "Lying flat and holding the breath for several seconds at a time", "Deep breaths with the arms raised above the head while standing"], "a": 0, "r": "Pursed-lip breathing keeps airways open and slows the breathing rate.", "id": 3004}, {"d": 2, "q": "A patient is to give a sputum sample for acid-fast bacilli. When should it be collected?", "o": ["Immediately after a large meal when the stomach is full of food", "On waking in the morning, before eating or drinking", "At bedtime after brushing the teeth with a mint toothpaste", "In the afternoon after a saline nebuliser to loosen secretions"], "a": 1, "r": "Overnight secretions give the highest yield. Early morning samples are standard.", "id": 3005}, {"d": 2, "q": "A tall young man has sudden sharp chest pain and shortness of breath while resting. Breath sounds are absent on the right side. What is the likely cause?", "o": ["Pneumonia", "Heart failure", "Asthma", "Spontaneous pneumothorax"], "a": 3, "r": "Sudden unilateral pain with absent breath sounds suggests pneumothorax.", "id": 3006}, {"d": 2, "q": "When suctioning a tracheostomy, which technique is correct?", "o": ["Apply continuous suction for 30 seconds while the catheter is being inserted", "Apply suction for no more than 10 seconds while withdrawing the catheter", "Insert the catheter and keep it still with the suction on for a full minute", "Suction every hour whether or not there are any secretions in the airway"], "a": 1, "r": "Prolonged suction causes hypoxia. Apply it only while withdrawing and for a short time.", "id": 3007}, {"d": 2, "q": "A patient with a peptic ulcer is prescribed amoxicillin, clarithromycin and a proton pump inhibitor. What is the purpose of this regimen?", "o": ["Treat a urinary tract infection and reduce bladder spasm", "Reduce the risk of venous clots in the legs", "Eradicate Helicobacter pylori and heal the ulcer", "Increase appetite and body weight after surgery"], "a": 2, "r": "Triple therapy eradicates H. pylori, which causes most peptic ulcers.", "id": 3008}, {"d": 2, "q": "A patient with chronic pancreatitis has fatty, foul-smelling stools. Which treatment is expected?", "o": ["A high-fat diet to increase the calories taken in each day", "Loperamide to slow the stools and ease the diarrhoea", "Pancreatic enzyme supplements with meals", "Fasting for several days each week to rest the pancreas"], "a": 2, "r": "Enzyme replacement improves fat digestion in pancreatic insufficiency.", "id": 3009}, {"d": 2, "q": "A patient with cirrhosis has tense ascites and breathlessness. Which intervention does the nurse expect?", "o": ["Paracentesis, with daily weights and a sodium-restricted diet", "A high-sodium diet to draw more fluid into the blood vessels", "Fluid loading to flush the abdomen and restore the kidney function", "Strict bed rest in a flat position with the legs raised above the heart"], "a": 0, "r": "Paracentesis relieves symptoms, while sodium restriction and weights help control reaccumulation.", "id": 3010}, {"d": 2, "q": "A prescriber orders heparin 1,000 units/hour. The bag contains 25,000 units in 500 mL. What rate should the pump be set at?", "o": ["10 mL/hour", "25 mL/hour", "40 mL/hour", "20 mL/hour"], "a": 3, "r": "The concentration is 50 units/mL. So 1,000 ÷ 50 = 20 mL/hour.", "id": 3011}, {"d": 2, "q": "A patient after gastrectomy has sweating and dizziness 20 minutes after meals. Which advice helps dumping syndrome?", "o": ["Eat small, frequent, low-carbohydrate meals and lie down afterwards", "Drink large amounts of fluid with each meal to help the food pass through", "Eat large, high-sugar meals to maintain weight after the operation", "Take a brisk walk after each meal to help the stomach empty"], "a": 0, "r": "Small dry meals and resting reduce rapid gastric emptying symptoms.", "id": 3012}, {"d": 2, "q": "A patient has a new colostomy. Which stoma appearance is NORMAL?", "o": ["Dark purple or black", "Pale and dry", "Moist and pink to red", "Painful and blistered"], "a": 2, "r": "A healthy stoma is moist and red-pink. Dark or pale colour suggests poor blood supply.", "id": 3013}, {"d": 2, "q": "A patient has just finished haemodialysis. Which assessment is MOST important?", "o": ["Weight, blood pressure and bleeding from the access site", "Bowel sounds, appetite and the colour of the stools", "Hearing, visual acuity and the level of orientation", "Skin turgor on the forehead and the moisture of the mouth"], "a": 0, "r": "Fluid shifts can cause hypotension, and heparin used in dialysis raises bleeding risk.", "id": 3014}, {"d": 2, "q": "A man with benign prostatic hyperplasia asks about cold remedies. Which advice is correct?", "o": ["Take any decongestant, because it helps to reduce the swelling in the prostate", "Avoid decongestants and antihistamines because they can cause urinary retention", "Drink less fluid whenever the urine flow is slow, to avoid discomfort", "Use anticholinergic drugs to relax the bladder and improve the flow of urine"], "a": 1, "r": "Decongestants and antihistamines tighten the bladder neck and can cause acute retention.", "id": 3015}, {"d": 2, "q": "A patient with type 1 diabetes has influenza with vomiting. Which sick-day rule is correct?", "o": ["Stop the insulin completely because you are not eating normal meals", "Take a double dose of insulin and avoid all fluids until the vomiting settles", "Continue insulin, check glucose and ketones often, and sip fluids", "Check the glucose level once a day only, in the morning before breakfast"], "a": 2, "r": "Insulin is still needed during illness. Monitor glucose and ketones and keep hydrated.", "id": 3016}, {"d": 2, "q": "A patient with Graves disease has exophthalmos. Which nursing measure is appropriate?", "o": ["Cold packs to the eyes and lying flat to reduce the swelling around them", "Contact lenses all day to reduce dryness and protect the eye", "Lubricating eye drops and sunglasses, with the head of the bed raised", "Rubbing the eyes gently to ease the irritation and itching"], "a": 2, "r": "Protecting the exposed cornea and elevating the head reduce eye damage and swelling.", "id": 3017}, {"d": 2, "q": "A patient after thyroid surgery reports numbness around the mouth and has carpopedal spasm. What is the likely cause and treatment?", "o": ["Hypercalcaemia, treated with diuretics and fluids", "Hypocalcaemia, treated with IV calcium gluconate", "Hyperkalaemia, treated with insulin and glucose", "Hypoglycaemia, treated with glucagon and sugar"], "a": 1, "r": "Parathyroid injury lowers calcium and causes tetany. IV calcium gluconate is given.", "id": 3018}, {"d": 2, "q": "A patient with pernicious anaemia asks how his condition will be treated. What is correct?", "o": ["Oral iron tablets for the next six months", "A high-fibre diet with plenty of vegetables", "Folic acid tablets taken alone each day", "Lifelong vitamin B12 injections"], "a": 3, "r": "Absence of intrinsic factor prevents B12 absorption, so it is given by injection.", "id": 3019}, {"d": 2, "q": "A septic patient has bleeding gums, oozing from venepuncture sites and purpura. What does the nurse suspect?", "o": ["Iron deficiency anaemia", "Pernicious anaemia", "Polycythaemia", "Disseminated intravascular coagulation"], "a": 3, "r": "Widespread bleeding in sepsis suggests DIC and needs urgent medical review.", "id": 3020}, {"d": 2, "q": "A patient with multiple sclerosis reports worse symptoms after a hot bath. What should the nurse advise?", "o": ["Take longer hot baths to relax the tight muscles and relieve the stiffness", "Avoid hot baths and overheating, and use cool environments", "Exercise vigorously in the sun to build up strength and stamina", "Wear several layers of warm clothing to keep the muscles loose"], "a": 1, "r": "Heat can temporarily worsen MS symptoms.", "id": 3021}, {"d": 2, "q": "A patient with myasthenia gravis becomes weak and breathless after missing a dose of pyridostigmine. What is the PRIORITY?", "o": ["Encourage rest and reassess the strength again tomorrow morning", "Give a sedative to ease the anxiety and help the patient sleep", "Restrict fluids to protect the swallowing and reduce choking", "Assess breathing and call for help, as this may be a crisis"], "a": 3, "r": "Myasthenic crisis can cause respiratory failure, so breathing comes first.", "id": 3022}, {"d": 2, "q": "A patient with right-sided hemiplegia after a stroke is lying in bed. Which positioning is correct?", "o": ["Support the affected arm on a pillow, with the shoulder forward", "Leave the affected arm hanging loosely at the side of the bed", "Pull on the affected arm when turning the patient in bed", "Keep the affected leg turned outwards to improve the comfort"], "a": 0, "r": "Supporting the affected limb prevents shoulder subluxation and contractures.", "id": 3023}, {"d": 2, "q": "A patient has a tonic-clonic seizure lasting more than five minutes. What is the FIRST-line drug?", "o": ["IV lorazepam or diazepam as prescribed", "Oral phenytoin given with sips of water", "Oral paracetamol to reduce the temperature", "IV furosemide to reduce the brain swelling"], "a": 0, "r": "A seizure over five minutes is status epilepticus, which needs IV benzodiazepines.", "id": 3024}, {"d": 2, "q": "A patient has fever, headache, photophobia and resistance to neck flexion. Which action is PRIORITY?", "o": ["Offer plenty of fluids and discharge home with oral paracetamol only", "Place the patient in a bright room to improve alertness and orientation", "Encourage the patient to walk about the ward to relieve the headache", "Start droplet precautions and prepare for blood cultures and antibiotics"], "a": 3, "r": "This suggests bacterial meningitis, which needs early isolation, cultures and antibiotics.", "id": 3025}, {"d": 2, "q": "A patient with gout asks about prevention. Which advice is correct?", "o": ["Fast for several days to lose weight quickly and reduce the pain", "Drink plenty of fluids and limit alcohol and organ meats", "Drink beer regularly to help flush out the uric acid from the body", "Eat more red meat and shellfish for protein to build up strength"], "a": 1, "r": "Fluids help excrete uric acid, and alcohol and purine-rich foods raise it.", "id": 3026}, {"d": 2, "q": "A patient with systemic lupus erythematosus asks about sun exposure. What should the nurse advise?", "o": ["Use sunscreen, protective clothing and avoid midday sun", "Sunbathe regularly to build up a protective tan on the skin", "Use tanning beds before holidays to prepare the skin for the sun", "Sun exposure has no effect on lupus and needs no protection"], "a": 0, "r": "UV light can trigger lupus flares, so protection is important.", "id": 3027}, {"d": 2, "q": "A patient with a fractured femur develops sudden breathlessness, confusion and petechiae on the chest. What does the nurse suspect?", "o": ["Fat embolism", "Pneumonia", "Cellulitis", "Acute gastritis"], "a": 0, "r": "Fat embolism follows long-bone fractures, with respiratory distress, neurological change and petechiae.", "id": 3028}, {"d": 0, "q": "Which action BEST prevents catheter-associated urinary tract infection?", "o": ["Change the drainage bag every day whether or not it is full", "Remove the catheter as soon as it is no longer needed", "Disconnect the catheter from the bag to take urine samples", "Irrigate the bladder with antiseptic each morning"], "a": 1, "r": "The most effective prevention is to avoid unnecessary catheter days.", "id": 3029}, {"d": 0, "q": "A nurse believes a colleague is giving medications unsafely. What should she do?", "o": ["Discuss the concern with other nurses in the staff room first", "Wait to see whether a patient is harmed before taking action", "Report the facts to the supervisor through the proper channel", "Post her concerns about the colleague on a social network"], "a": 2, "r": "Raise concerns with the responsible person using documented facts, not gossip.", "id": 3030}, {"d": 0, "q": "The ward is short of staff on a busy shift. What should the charge nurse do FIRST?", "o": ["Prioritise care by patient acuity and request extra staff", "Cancel all routine treatments until more staff are available", "Ask the least busy nurse to cover all of the sick patients", "Delegate every task to unlicensed staff working on the ward"], "a": 0, "r": "Allocate scarce resources by need and escalate the staffing shortfall.", "id": 3031}, {"d": 0, "q": "Which hand hygiene technique is correct when using alcohol rub?", "o": ["Apply a small drop and wipe it off on a towel straight away", "Rub all surfaces of the hands for at least 20 seconds until dry", "Rinse the hands with water afterwards to remove the alcohol rub", "Rub only the palms and then move on to the next patient"], "a": 1, "r": "Cover all surfaces and rub until dry for adequate contact time.", "id": 3032}, {"d": 0, "q": "A 15-year-old needs a non-urgent surgical procedure. From whom should consent be obtained?", "o": ["The 15-year-old alone", "A parent or legal guardian", "The ward nurse on duty", "A friend who accompanied the patient"], "a": 1, "r": "Minors cannot give legal consent for non-emergency treatment, so the guardian consents.", "id": 3033}, {"d": 0, "q": "An unconscious trauma patient needs emergency surgery. No relatives can be reached. What should the team do?", "o": ["Delay the surgery until a relative arrives to sign the consent form", "Ask a bystander at the scene to sign the consent form instead", "Proceed under the emergency exception to save life and document everything", "Wait for a court order to be issued before beginning the surgery"], "a": 2, "r": "Implied consent applies when delay would risk life and no surrogate is available.", "id": 3034}, {"d": 0, "q": "Which action helps maintain a sterile field?", "o": ["Turning your back to the field to fetch supplies", "Letting wet items rest on the edge of the field", "Reaching across the field with an unsterile arm", "Keeping the field in view and above waist level"], "a": 3, "r": "Sterile items must be seen, kept dry and not reached over.", "id": 3035}, {"d": 0, "q": "Immediately after giving a medication, what should the nurse do?", "o": ["Wait until the end of the shift to document", "Ask the patient to sign the chart", "Let the next nurse record it", "Document the drug, dose, time and route"], "a": 3, "r": "Document at once to prevent a repeat dose and to keep an accurate record.", "id": 3036}, {"d": 0, "q": "Which technique reduces back injury when lifting a heavy load?", "o": ["Bend at the waist and twist the body to place the load down", "Keep the load close, bend the knees and keep the back straight", "Hold the load at arm's length from the body for better balance", "Lift quickly with a sharp jerk to make use of the momentum"], "a": 1, "r": "Good body mechanics protect the back.", "id": 3037}, {"d": 0, "q": "A patient's family asks to wash the body of a deceased relative according to their religious practice. What should the nurse do?", "o": ["Facilitate it according to hospital policy and respect the practice", "Refuse the request because only hospital staff may handle the body", "Allow it without any infection control precautions for the family", "Ask the family to return after the body has been moved elsewhere"], "a": 0, "r": "Respecting religious practice supports dignity, within infection control policy.", "id": 3038}, {"d": 0, "q": "A patient is diagnosed with a notifiable infectious disease. What is the nurse's responsibility?", "o": ["Keep the diagnosis confidential from all outside agencies", "Notify the public health authority as required by law", "Tell the patient's employer about the diagnosis first", "Wait for the family to decide whether to report it"], "a": 1, "r": "Notifiable diseases must be reported to protect public health.", "id": 3039}, {"d": 0, "q": "A patient is receiving continuous enteral tube feeding. Which position is correct?", "o": ["Lying flat on the back to improve absorption of the feed", "Left side down with the head of the bed lowered", "Head of the bed raised at least 30° during and after feeds", "Trendelenburg position for the first hour after each feed"], "a": 2, "r": "Elevation reduces the risk of aspiration.", "id": 3040}, {"d": 0, "q": "How should a nurse confirm correct placement of a nasogastric tube before feeding?", "o": ["Test the aspirate pH or confirm by X-ray according to policy", "Listen for a whoosh over the stomach while injecting air into the tube", "Ask the patient to hum while the tube is in position", "Look for bubbles with the end of the tube held in a cup of water"], "a": 0, "r": "Aspirate pH (5.5 or less) or X-ray are accepted methods. Auscultation is unreliable.", "id": 3041}, {"d": 0, "q": "Which precautions are required for a patient with MRSA wound infection?", "o": ["Airborne precautions in a negative-pressure single room", "Standard precautions with no extra protective equipment", "Gown and gloves on entry, removed before leaving the room", "A mask worn for all contact with the patient"], "a": 2, "r": "MRSA spreads by contact, so gown and gloves are worn and then removed on exit.", "id": 3042}, {"d": 0, "q": "A terminally ill patient asks, \"Am I dying?\" What is the BEST response?", "o": ["Answer honestly, find out what he wants to know and involve the physician", "Tell him not to worry about such things and focus on getting well", "Change the subject to his family and what they are planning to do", "Say that you do not know and leave the room to find someone else"], "a": 0, "r": "Honest, sensitive communication respects the principle of veracity.", "id": 3043}, {"d": 0, "q": "A nurse delegates a task to an assistant. Who remains accountable for the outcome?", "o": ["The assistant only", "The nurse manager", "The patient's physician", "The delegating RN"], "a": 3, "r": "Delegation passes the task, but accountability stays with the RN.", "id": 3044}, {"d": 0, "q": "A colleague appears exhausted, irritable and tearful after many extra shifts. What is the BEST action?", "o": ["Ignore the problem, since everyone on the ward is tired at present", "Offer support and encourage the use of staff support services", "Report her for misconduct to the manager without speaking to her", "Tell her to take on more shifts so that she feels useful again"], "a": 1, "r": "Burnout needs support and resources, not punishment.", "id": 3045}, {"d": 0, "q": "A nurse is tempted to post a picture of an interesting wound on social media. What is correct?", "o": ["Post it if the face is not visible, since the patient cannot be identified", "Share it only with friends who work in healthcare and are discreet", "Never post patient information or images without consent and policy approval", "Post it with only the patient's initials so that the case remains private"], "a": 2, "r": "Patient images and information are confidential even when partially anonymised.", "id": 3046}, {"d": 0, "q": "Which discharge information BEST helps a patient take medicines safely at home?", "o": ["A written list with each drug's dose, times and purpose", "A verbal explanation of the medicines on the day of discharge only", "A general leaflet describing all of the commonly used medicines", "A reminder to ask the pharmacist later about each of the drugs"], "a": 0, "r": "Written, individualised information reduces errors after discharge.", "id": 3047}, {"d": 0, "q": "A patient on a mechanical ventilator is being turned. Which action BEST prevents ventilator-associated pneumonia?", "o": ["Keep the head of the bed raised and give regular oral care", "Keep the patient flat to protect the airway", "Suction every 10 minutes whether or not secretions are present", "Use tap water to rinse the mouth twice daily"], "a": 0, "r": "Elevating the head and oral hygiene are core VAP bundle measures.", "id": 3048}, {"d": 1, "q": "In a research study, what are inclusion criteria?", "o": ["Characteristics participants must have to be in the study", "Characteristics that would exclude participants from the study", "The statistical tests chosen to analyse the data collected", "The ethical approval process required before the study begins"], "a": 0, "r": "Inclusion criteria define who is eligible to join the study.", "id": 3049}, {"d": 1, "q": "Which measure of central tendency is BEST for data with extreme outliers?", "o": ["Mean", "Range", "Standard deviation", "Median"], "a": 3, "r": "The median is not distorted by outliers.", "id": 3050}, {"d": 1, "q": "What is the main purpose of randomisation in a clinical trial?", "o": ["To make sure that all of the participants are healthy at the start of the trial", "To allow participants to choose which treatment they would prefer to receive", "To increase the sample size so that the results are statistically significant", "To reduce selection bias by giving each participant an equal chance of any group"], "a": 3, "r": "Random allocation balances known and unknown factors between groups.", "id": 3051}, {"d": 1, "q": "What is the main purpose of a literature review at the start of a study?", "o": ["To collect data from participants using questionnaires or interviews", "To decide which statistical software will be used for analysis", "To identify what is already known and where the gaps are", "To publish the findings of the study in a nursing journal"], "a": 2, "r": "A review places the study in context and identifies the gap it will fill.", "id": 3052}, {"d": 1, "q": "A researcher concludes that a drug works when in fact it does not. Which error is this?", "o": ["Type II error", "Sampling error", "Measurement error", "Type I error"], "a": 3, "r": "A Type I error is a false positive, rejecting a true null hypothesis.", "id": 3053}, {"d": 2, "q": "A patient's peripheral IV site is swollen, cool and painful during an infusion. What should the nurse do FIRST?", "o": ["Slow the infusion and monitor the site for another hour", "Stop the infusion, remove the cannula and elevate the limb", "Apply a tourniquet above the site to limit the swelling", "Flush the cannula firmly with saline to clear the blockage"], "a": 1, "r": "These are signs of infiltration. Stop the infusion and remove the cannula.", "id": 3054}, {"d": 3, "q": "A pregnant woman complains of heartburn at night. Which advice is BEST?", "o": ["Lie flat after large meals so that the food settles evenly", "Take an aspirin tablet before bed to relieve the burning", "Eat small frequent meals and avoid lying down after eating", "Drink a large glass of water immediately before going to bed"], "a": 2, "r": "Small meals and staying upright reduce reflux. Aspirin is avoided in pregnancy.", "id": 3055}, {"d": 3, "q": "Which finding BEST distinguishes true labour from false labour?", "o": ["Irregular tightening that stops when she walks around the room or changes position", "Discomfort felt mainly in the lower back and relieved by a warm bath", "Contractions that become stronger and closer, with cervical change", "Contractions that stay the same length and are not painful at all"], "a": 2, "r": "True labour causes progressive cervical dilatation and effacement.", "id": 3056}, {"d": 3, "q": "A woman is 12 days postpartum. Which lochia is expected?", "o": ["Lochia rubra, a bright red discharge with large clots", "Lochia alba, a creamy yellow-white discharge", "Lochia serosa, a bright red discharge with large clots", "A heavy flow soaking a pad every hour with an offensive smell"], "a": 1, "r": "Lochia changes from rubra (days 1–3) to serosa (4–10) to alba after about day 10.", "id": 3057}, {"d": 3, "q": "A breastfeeding multiparous woman has cramping pain while feeding on day 2. What should the nurse say?", "o": ["They signal retained placental tissue and need surgery", "They mean you should stop breastfeeding for a week", "They indicate a uterine infection that needs urgent antibiotics", "These afterpains are normal and help the uterus return to size"], "a": 3, "r": "Oxytocin released during feeding causes uterine contractions, and afterpains are common in multiparous women.", "id": 3058}, {"d": 3, "q": "Which newborn is at HIGHEST risk of hypoglycaemia?", "o": ["The baby of a mother with a normal blood pressure", "The baby of a mother with diabetes", "A term baby who has fed well in the first hour", "The second twin who weighs 3.2 kg and cries strongly"], "a": 1, "r": "Infants of diabetic mothers have hyperinsulinism after birth, so check glucose and feed early.", "id": 3059}, {"d": 3, "q": "Why is vitamin K given to a newborn?", "o": ["To treat physiological jaundice in the first week", "To boost the baby's immunity against infection", "To prevent haemorrhagic disease of the newborn", "To help the baby's bones develop normally"], "a": 2, "r": "Newborns have low vitamin K and clotting factors, so one injection prevents serious bleeding.", "id": 3060}, {"d": 3, "q": "A woman has an intrauterine device inserted. Which symptom should she report immediately?", "o": ["Severe lower abdominal pain, fever or a missing string", "Mild cramping for a few hours on the day of the insertion", "A slightly heavier period during the first few cycles after fitting", "Light spotting for the first week after the device is inserted"], "a": 0, "r": "Severe pain, fever or a missing string suggest infection, perforation or expulsion.", "id": 3061}, {"d": 3, "q": "When is the HPV vaccine MOST effective?", "o": ["After diagnosis of cervical changes on a smear", "Before the start of sexual activity", "Only after the first pregnancy has ended", "During menopause to prevent late infection"], "a": 1, "r": "Vaccination works best before exposure to the virus.", "id": 3062}, {"d": 3, "q": "A woman who has just received an epidural has a BP of 84/50. What is the likely cause and nursing action?", "o": ["Pre-eclampsia, so start an infusion of magnesium sulfate at once", "Hypotension from vasodilation, so lay her on her left side and give IV fluids", "Pain from the contractions, so give another top-up dose of the epidural", "Normal findings in labour, so recheck her blood pressure again in an hour"], "a": 1, "r": "Epidural sympathetic block lowers BP, so use positioning and fluids and notify anaesthesia.", "id": 3063}, {"d": 3, "q": "Which woman should NOT receive methylergonovine for postpartum haemorrhage?", "o": ["One with a BP of 110/70 mmHg", "One with a BP of 160/100 mmHg", "One with a pulse of 88/min", "One with a temperature of 37.2 °C"], "a": 1, "r": "Methylergonovine causes vasoconstriction and is contraindicated in hypertension.", "id": 3064}, {"d": 4, "q": "The parents of a 6-week-old infant report a temperature of 38.4 °C. What should the nurse advise?", "o": ["Give paracetamol and observe at home for 24 hours", "Give a lukewarm sponge bath and recheck later", "Wait until the temperature reaches 39 °C before calling", "Come for urgent medical evaluation immediately"], "a": 3, "r": "Fever in infants under three months may indicate serious bacterial infection and needs urgent assessment.", "id": 3065}, {"d": 4, "q": "A child has paroxysmal coughing ending in a whoop and vomiting. Which precaution is needed?", "o": ["Airborne precautions in a negative-pressure room", "Droplet precautions, with antibiotics as prescribed", "Contact precautions only, with a gown for all visitors", "No precautions, since the illness is not infectious"], "a": 1, "r": "This is pertussis, which spreads by droplets and needs antibiotics.", "id": 3066}, {"d": 4, "q": "A child has chickenpox with fresh vesicles. Which isolation applies?", "o": ["Airborne and contact precautions until all lesions have crusted", "Droplet precautions for 24 hours only, with the door left open", "Standard precautions with hand hygiene alone and no isolation room", "Reverse isolation to protect the other patients on the ward"], "a": 0, "r": "Varicella spreads by airborne droplet nuclei and by contact with vesicle fluid.", "id": 3067}, {"d": 4, "q": "A child with acute otitis media is prescribed antibiotics. Which teaching is correct?", "o": ["Stop the antibiotic once the fever has gone away", "Insert cotton buds into the ear to clear any discharge", "Complete the full course even when the pain settles", "Keep the child lying flat to reduce the earache"], "a": 2, "r": "Stopping early can lead to relapse and resistance.", "id": 3068}, {"d": 4, "q": "A child is 6 hours after a tonsillectomy and keeps swallowing frequently. What does the nurse suspect?", "o": ["Normal throat comfort", "Dehydration from mouth breathing", "A reaction to the anaesthetic", "Bleeding in the throat"], "a": 3, "r": "Frequent swallowing can mean blood trickling down the throat, a sign of post-tonsillectomy haemorrhage.", "id": 3069}, {"d": 4, "q": "Which diet is required for a child with coeliac disease?", "o": ["A diet low in all fats and sugars for life", "A diet free from all dairy products and eggs", "A high-protein diet without any carbohydrates", "A gluten-free diet avoiding wheat, barley and rye"], "a": 3, "r": "Gluten triggers the immune damage in coeliac disease.", "id": 3070}, {"d": 4, "q": "What is the BEST advice to parents to prevent poisoning in toddlers?", "o": ["Keep them in an unlocked low cupboard fitted with childproof lids", "Keep medicines and cleaning products locked away out of reach", "Store medicines in food containers so that they are disguised", "Tell the child firmly and repeatedly not to touch the products"], "a": 1, "r": "Locked storage is the only reliable protection. Containers can be opened by determined toddlers.", "id": 3071}, {"d": 4, "q": "A child takes methylphenidate for ADHD. What should the nurse monitor?", "o": ["Growth, appetite and sleep", "Hearing and vision", "Bowel movements", "Skin colour and nail health"], "a": 0, "r": "Stimulants can suppress appetite and growth and disturb sleep.", "id": 3072}, {"d": 4, "q": "A toddler has a hot water scald to the arm. What is the FIRST-aid measure?", "o": ["Apply butter or oil to the burn to soothe the skin", "Cover the burn with ice cubes for about 20 minutes", "Cool the burn under running water for about 20 minutes", "Burst any blisters and apply toothpaste to the area"], "a": 2, "r": "Cooling with running water limits the depth of injury. Ice and creams make it worse.", "id": 3073}, {"d": 4, "q": "A teenager is found to have a rib hump on the forward bend test. What does this indicate?", "o": ["Possible scoliosis needing referral", "Normal posture for the age of the child", "Muscle strain from carrying heavy school bags", "Poor eyesight which needs correction with glasses"], "a": 0, "r": "A rib hump indicates spinal rotation and possible scoliosis.", "id": 3074}, {"d": 5, "q": "A patient pauses for a long time during an interview. Which response is BEST?", "o": ["Quickly change the subject to avoid any discomfort", "Ask three further questions to fill the silence", "Finish the sentence for the patient to help him along", "Remain silent and allow time for the patient to think"], "a": 3, "r": "Silence gives the patient time to reflect and encourages them to continue.", "id": 3075}, {"d": 5, "q": "A man scolded by his boss shouts at his wife when he gets home. Which defence mechanism is this?", "o": ["Denial", "Projection", "Sublimation", "Displacement"], "a": 3, "r": "Displacement redirects feelings from a threatening target to a safer one.", "id": 3076}, {"d": 5, "q": "A patient on haloperidol develops sudden painful neck spasms and a twisted posture. Which drug does the nurse expect?", "o": ["Benztropine", "Lithium", "Naloxone", "Sertraline"], "a": 0, "r": "Acute dystonia is an extrapyramidal reaction treated with anticholinergics.", "id": 3077}, {"d": 5, "q": "A patient on long-term antipsychotic therapy has lip smacking and tongue movements. What should the nurse do?", "o": ["Reassure him that these movements are harmless and common", "Report it, because the drug may need to be changed", "Increase the dose of the drug to suppress the movements", "Give the next dose with extra fluids and a snack"], "a": 1, "r": "These movements suggest tardive dyskinesia, which needs prescriber review.", "id": 3078}, {"d": 5, "q": "A patient with OCD spends hours washing his hands. Which approach is BEST at first?", "o": ["Allow the ritual at first, while teaching alternative coping and gradual limits", "Forbid handwashing completely from the first day of admission", "Ridicule the behaviour in front of others to discourage it", "Join the patient in the ritual so that he feels fully supported"], "a": 0, "r": "Abrupt prevention raises anxiety. Gradual limits and coping skills are therapeutic.", "id": 3079}, {"d": 5, "q": "A patient is on lithium. Which dietary advice is correct?", "o": ["Follow a strict low-salt diet to avoid fluid retention", "Avoid all fluids to reduce the drug level", "Keep salt and fluid intake consistent each day", "Take salt supplements on hot days only"], "a": 2, "r": "Sodium changes alter lithium levels, so keep intake steady.", "id": 3080}, {"d": 5, "q": "Which communication approach is BEST for a patient with moderate dementia?", "o": ["Use short, simple sentences and give one instruction at a time", "Give long detailed explanations so that the patient understands", "Argue to correct any wrong statements", "Speak mainly to the relatives"], "a": 0, "r": "Simple, clear and calm communication fits the person's cognitive abilities.", "id": 3081}, {"d": 5, "q": "A patient admitted after a suicide attempt is on close observation. Which measure is correct?", "o": ["Remove dangerous items and observe at the prescribed intervals", "Leave the patient completely alone so that trust can be built", "Allow the patient to keep a belt and razor for personal care", "Keep the observation findings secret from the rest of the team"], "a": 0, "r": "Environmental safety and observation are essential. Hold and share risk information with the team.", "id": 3082}, {"d": 5, "q": "Which technique helps a patient manage mild anxiety?", "o": ["Drinking several cups of coffee to stay alert and calm", "Avoiding every situation that is likely to cause the anxiety", "Reading the news constantly to feel more in control", "Progressive muscle relaxation with slow breathing"], "a": 3, "r": "Relaxation and slow breathing reduce physiological arousal. Caffeine and avoidance worsen anxiety.", "id": 3083}, {"d": 5, "q": "A patient has sudden paralysis of the legs with no physical cause found, and appears calm about it. How should the nurse respond?", "o": ["Tell the patient that he is faking the paralysis", "Give the patient extra attention whenever the symptoms worsen", "Accept that the symptoms are real and avoid reinforcing them", "Dismiss the complaint and leave the room immediately"], "a": 2, "r": "This is conversion disorder. Respectful acceptance without reinforcement supports recovery.", "id": 3084}, {"d": 6, "q": "In an outbreak, 5 of the 50 people diagnosed with the disease died. What is the case-fatality rate?", "o": ["5%", "10%", "1%", "50%"], "a": 1, "r": "Case-fatality rate = deaths ÷ number of cases = 5 ÷ 50 = 10%.", "id": 3085}, {"d": 6, "q": "Which statement BEST describes herd immunity?", "o": ["Protection of animals that live in close contact with humans on farms", "Immunity gained only from having the disease at some point in life", "Protection that lasts for a lifetime after a single dose of vaccine", "Indirect protection of the unvaccinated when most of the population is immune"], "a": 3, "r": "When enough people are immune, transmission is interrupted and vulnerable people are protected.", "id": 3086}, {"d": 6, "q": "Which feature makes a disease suitable for population screening?", "o": ["A very rare condition for which there is no effective treatment at all", "A detectable early stage and an effective treatment", "A test that is painful, expensive and not widely available", "A disease that always shows symptoms very early in its course"], "a": 1, "r": "Screening is worthwhile when early detection leads to better outcomes through effective treatment.", "id": 3087}, {"d": 6, "q": "What is the difference between isolation and quarantine?", "o": ["Isolation applies only to healthy people and quarantine applies only to patients", "They are the same measure and only the names differ between countries", "Isolation is voluntary at home, while quarantine is always done in hospital", "Isolation separates people who are ill, while quarantine restricts healthy people who were exposed"], "a": 3, "r": "Isolation separates the infected. Quarantine restricts people who may have been exposed but are not yet ill.", "id": 3088}, {"d": 6, "q": "Which school health service is MOST useful at school entry?", "o": ["Vision and hearing screening", "Cholesterol testing", "Bone density scans", "Prostate screening"], "a": 0, "r": "Vision and hearing problems affect learning and are easy to detect and correct early.", "id": 3089}, {"d": 6, "q": "An office worker has persistent lower back pain at the end of each day. Which advice is BEST?", "o": ["Stay seated all day without moving, so that the back muscles can rest", "Adjust the chair, desk and screen heights and take regular breaks", "Wear a rigid back brace at all times, including when sleeping", "Sit with the legs crossed to relieve the pressure on the lower back"], "a": 1, "r": "Ergonomic changes and regular movement reduce work-related back strain.", "id": 3090}, {"d": 6, "q": "Which principle is correct for safe healthcare waste management?", "o": ["Mix all types of waste in one large bin to save time on the ward", "Sort the waste at the disposal site later on, after it has been collected", "Burn all waste in the open area behind the building each evening", "Segregate the waste at the point where it is produced"], "a": 3, "r": "Segregation at source reduces infection risk and disposal costs.", "id": 3091}, {"d": 6, "q": "An older woman has urine leakage when coughing and when rushing to the toilet. Which advice is BEST?", "o": ["Timed voiding and pelvic floor exercises", "Restrict all fluids during the day to reduce the number of leaks", "Wear incontinence pads and avoid using the toilet whenever possible", "Stay in bed for most of the day to prevent any accidents"], "a": 0, "r": "Bladder training and pelvic floor exercises are first-line, and fluid restriction concentrates the urine.", "id": 3092}, {"d": 6, "q": "Why are older adults at risk of dehydration?", "o": ["The thirst response is reduced, so fluids should be offered regularly", "They always drink far too much water, which washes out their salts", "They have a higher body water content than young adults do", "They do not lose any fluid through the skin or the breath"], "a": 0, "r": "Ageing blunts thirst and reduces total body water, so offer fluids routinely.", "id": 3093}, {"d": 6, "q": "What is the purpose of advance care planning?", "o": ["To decide treatment after the person loses capacity, without their input", "To avoid ever talking about illness or death with the family", "To record wishes for future care while the person can still decide", "To appoint a new doctor and change the hospital for the patient"], "a": 2, "r": "Advance care planning lets people state their preferences before they lose capacity.", "id": 3094}, {"d": 6, "q": "What infant feeding advice is recommended for the first six months of life?", "o": ["Breastfeeding plus cereal from 8 weeks", "Formula milk with early water feeds", "Exclusive breastfeeding", "Cow's milk from the first month"], "a": 2, "r": "Exclusive breastfeeding for about six months is recommended by international guidance.", "id": 3095}, {"d": 6, "q": "A smoker says he is thinking of quitting sometime in the next six months. Which stage of change is this?", "o": ["Pre-contemplation", "Action", "Contemplation", "Maintenance"], "a": 2, "r": "Contemplation means being aware of the problem and considering change within about six months.", "id": 3096}, {"d": 6, "q": "Which health facility is the first point of contact in primary health care?", "o": ["The local primary health care centre", "The tertiary referral hospital", "A specialist surgical clinic", "The intensive care unit"], "a": 0, "r": "Primary care is the first contact and the gateway to referral.", "id": 3097}, {"d": 6, "q": "A mother asks how to prepare oral rehydration solution for her child with diarrhoea. What should the nurse teach?", "o": ["Mix the sachet with milk to give the child extra energy and protein", "Add extra sugar to the mixture to improve the taste for the child", "Mix one sachet with the stated amount of clean water and give small frequent sips", "Stop all fluids until the diarrhoea has settled, to rest the bowel"], "a": 2, "r": "Correct dilution is essential. Extra sugar or wrong dilution can worsen diarrhoea.", "id": 3098}, {"d": 6, "q": "An 80-year-old has had surgery for a hip fracture. Which approach BEST promotes recovery?", "o": ["Strict bed rest for six weeks so that the bone can heal fully", "Early mobilisation with physiotherapy as prescribed", "Limit fluids and food to avoid complications after the operation", "Avoid weight-bearing for several months, whatever the surgeon says"], "a": 1, "r": "Early mobilisation reduces complications such as clots, pneumonia and pressure injury.", "id": 3099}];
 const REAL4=[{"d": 2, "q": "A patient with chest pain has ST elevation and symptoms for 40 minutes. Which history makes fibrinolytic therapy UNSAFE?", "o": ["Controlled hypertension for ten years", "A previous appendectomy as a teenager", "Mild asthma treated with an inhaler", "Recent haemorrhagic stroke"], "a": 3, "r": "A prior intracranial haemorrhage is an absolute contraindication to fibrinolytics.", "id": 4000}, {"d": 2, "q": "A patient with atrial fibrillation has a ventricular rate of 150/min and BP 124/78. Which drug class is used for rate control?", "o": ["Loop diuretics", "Beta-blockers", "Nitrate patches", "Potassium binders"], "a": 1, "r": "Beta-blockers or calcium channel blockers slow the ventricular rate in AF.", "id": 4001}, {"d": 2, "q": "A patient with a deep vein thrombosis starts warfarin while on heparin. Why are both given together at first?", "o": ["Warfarin takes days to become effective", "Heparin makes warfarin stronger straight away", "Warfarin removes the clot within hours", "Both drugs act on the same pathway at once"], "a": 0, "r": "Warfarin needs several days to reach a therapeutic effect, so heparin covers the gap.", "id": 4002}, {"d": 2, "q": "A patient on simvastatin reports severe unexplained muscle pain and dark urine. What should the nurse do?", "o": ["Advise taking the next dose with grapefruit juice at night", "Reassure the patient that it is a normal effect of the tablet", "Suggest stopping all fluids to protect the kidneys from strain", "Report it immediately, as it may be rhabdomyolysis"], "a": 3, "r": "Muscle pain with dark urine suggests rhabdomyolysis, which can injure the kidneys.", "id": 4003}, {"d": 2, "q": "A patient has cold, clammy skin, a systolic BP of 78 mmHg and crackles after a large myocardial infarction. What is the likely problem?", "o": ["Hypovolaemic shock", "Cardiogenic shock", "Septic shock", "Anaphylactic shock"], "a": 1, "r": "Pump failure after a large MI causes hypotension with pulmonary oedema.", "id": 4004}, {"d": 2, "q": "A patient is taught how to use a corticosteroid inhaler and a bronchodilator inhaler. Which instruction is correct?", "o": ["Use the steroid first, then the bronchodilator, and avoid rinsing the mouth afterwards", "Use the bronchodilator first, then the steroid, and rinse the mouth afterwards", "Use both inhalers together at the same time and rinse the mouth with mouthwash", "Swallow the steroid dose with plenty of water after every inhalation to avoid thrush"], "a": 1, "r": "The bronchodilator opens the airways first. Rinsing prevents oral thrush from the steroid.", "id": 4005}, {"d": 2, "q": "A patient with lung cancer has facial swelling, distended neck veins and breathlessness that worsen when lying flat. What is suspected?", "o": ["Superior vena cava syndrome", "Heart failure with ankle swelling", "Anaphylaxis from a drug", "A simple chest infection"], "a": 0, "r": "A mass compressing the SVC obstructs venous return from the head and arms.", "id": 4006}, {"d": 2, "q": "A patient with COPD receives oxygen through a Venturi mask. What is the main advantage?", "o": ["It gives 100% oxygen at all flow rates", "It delivers a precise oxygen concentration", "It removes the need to monitor saturation", "It is used only for patients who are not breathing"], "a": 1, "r": "A Venturi mask gives a fixed, accurate FiO2, which suits COPD patients at risk of CO2 retention.", "id": 4007}, {"d": 2, "q": "A patient with Crohn's disease has a fever, abdominal pain and a tender mass. Which complication is a concern?", "o": ["Acute appendicitis with rupture", "Abscess or fistula formation", "Gastric ulcer with bleeding", "Acute pancreatitis from gallstones"], "a": 1, "r": "Transmural inflammation in Crohn's disease can create abscesses and fistulas.", "id": 4008}, {"d": 2, "q": "A patient with diverticulitis has fever and left lower quadrant pain. Which diet advice is correct during the acute attack?", "o": ["Rest the bowel with clear fluids or low residue, as prescribed", "A high-fibre diet with plenty of seeds, nuts and raw vegetables", "Large portions of raw vegetables and bran with every meal", "A normal diet with extra bran supplements from the first day"], "a": 0, "r": "During an acute flare the bowel is rested. High fibre is advised after recovery.", "id": 4009}, {"d": 2, "q": "A patient has hepatitis A. Which advice for the household is MOST important?", "o": ["Avoid sharing needles with the patient and wear gloves for all contact", "Use barrier protection during every contact with the patient at home", "Keep the patient in negative-pressure isolation for the whole illness", "Wash hands carefully after toilet use and before preparing food"], "a": 3, "r": "Hepatitis A is spread by the faecal-oral route, so hygiene is the key control.", "id": 4010}, {"d": 2, "q": "A patient in the oliguric phase of acute kidney injury has a potassium of 6.4 mmol/L. What is the PRIORITY?", "o": ["Offer a high-potassium fruit snack to keep the patient's energy up", "Report it and prepare for urgent treatment with ECG monitoring", "Increase fluids to 4 L a day to flush the potassium out", "Give an oral potassium supplement with the next meal"], "a": 1, "r": "Hyperkalaemia in AKI can cause fatal arrhythmias and needs urgent treatment.", "id": 4011}, {"d": 2, "q": "A patient has fever, dysuria and urgency. Which teaching about prevention of recurrent UTI is correct?", "o": ["Wipe from back to front after using the toilet for cleanliness", "Delay voiding as long as possible to let the bladder fill fully", "Drink plenty of fluids and void after sexual intercourse", "Use perfumed soaps for genital hygiene to prevent infection"], "a": 2, "r": "Fluids, regular emptying and post-coital voiding reduce recurrence. Wipe front to back.", "id": 4012}, {"d": 2, "q": "A kidney transplant recipient has fever, graft tenderness and a rising creatinine. What is suspected?", "o": ["Wound infection only", "Normal recovery", "Acute rejection", "Dehydration alone"], "a": 2, "r": "This combination suggests rejection, which needs urgent assessment and immunosuppression changes.", "id": 4013}, {"d": 2, "q": "A patient has a calcium of 3.1 mmol/L, bone pain and constipation. Which condition is likely?", "o": ["Hypothyroidism", "Addison disease", "Hyperparathyroidism", "Diabetes insipidus"], "a": 2, "r": "Excess PTH raises calcium, which causes bone pain, kidney stones and constipation.", "id": 4014}, {"d": 2, "q": "A patient in DKA has a glucose of 26 mmol/L and signs of dehydration. What is given FIRST?", "o": ["IV 0.9% sodium chloride to restore fluid volume", "A rapid bolus of insulin only, before any fluids", "Oral sugar drinks to correct the dehydration", "A high-dose oral antibiotic for the likely infection"], "a": 0, "r": "Fluid replacement is the first step in DKA, followed by insulin and potassium management.", "id": 4015}, {"d": 2, "q": "A patient with haemophilia A has a painful swollen knee after a fall. What should the nurse do?", "o": ["Massage the joint firmly and apply heat to relieve the bleeding and pain", "Give an intramuscular NSAID injection for the pain and swelling", "Apply rest, ice, compression and elevation, and give factor VIII as prescribed", "Encourage immediate weight-bearing to keep the joint from stiffening"], "a": 2, "r": "Joint bleeds need factor replacement and RICE. Avoid IM injections and aspirin.", "id": 4016}, {"d": 2, "q": "A patient with aplastic anaemia is at greatest risk of which problem?", "o": ["Fluid overload", "Hypertension", "Constipation", "Infection and bleeding"], "a": 3, "r": "Bone marrow failure reduces white cells and platelets, so infection and bleeding follow.", "id": 4017}, {"d": 2, "q": "A patient after a below-knee amputation feels pain in the missing foot. How should the nurse respond?", "o": ["Tell the patient that the pain is only imaginary and will pass soon", "Remove all pain medicines because the limb is no longer there", "Warn the patient that the pain will never improve at any stage", "Accept that phantom pain is real and offer medication and distraction"], "a": 3, "r": "Phantom limb pain is real and is treated with analgesics and other measures.", "id": 4018}, {"d": 2, "q": "A patient has a hot, painful, swollen shin with fever after a compound fracture. Which infection is suspected?", "o": ["Osteomyelitis", "Gout", "Osteoporosis", "A simple bruise"], "a": 0, "r": "Bone infection after an open fracture presents with local signs and systemic fever.", "id": 4019}, {"d": 2, "q": "A patient wakes with sudden one-sided facial droop, unable to close the eye, with no limb weakness. What is the likely diagnosis?", "o": ["Stroke", "Bell's palsy", "Myasthenia gravis", "Meningitis"], "a": 1, "r": "Isolated facial nerve palsy with eye closure failure is typical of Bell's palsy.", "id": 4020}, {"d": 2, "q": "A patient has severe eye pain, blurred vision, haloes around lights and a fixed mid-dilated pupil. What is suspected?", "o": ["Cataract with progressive blur", "Dry eye from poor tear film", "Acute angle-closure glaucoma", "Conjunctivitis from a viral cause"], "a": 2, "r": "Rapid pressure rise causes pain, haloes and a fixed pupil, an ophthalmic emergency.", "id": 4021}, {"d": 2, "q": "A patient sees flashes of light, floaters and a curtain across the vision. What should the nurse do?", "o": ["Keep the patient calm and arrange urgent eye review", "Reassure the patient that the symptoms will pass overnight", "Apply a warm compress to the eye for an hour at home", "Encourage reading to test how well the vision has recovered"], "a": 0, "r": "These symptoms suggest retinal detachment, which needs urgent surgery to save sight.", "id": 4022}, {"d": 2, "q": "A patient is recovering from a total knee replacement. Which exercise advice is correct?", "o": ["Rest the knee fully for four weeks before any exercise starts", "Avoid all weight-bearing for a month, whatever the surgeon says", "Begin early, guided movement and mobilisation with physiotherapy", "Do only upper body exercises until the wound is completely healed"], "a": 2, "r": "Early movement prevents stiffness and clots.", "id": 4023}, {"d": 2, "q": "A patient has a pressure injury with yellow slough and an odour. What is the BEST next step?", "o": ["Cover it with a dry gauze dressing and leave it undisturbed", "Apply heat to the area to speed the healing process", "Document and refer for debridement and wound care", "Cleanse it with a strong antiseptic solution every day"], "a": 2, "r": "Slough and odour suggest infected necrotic tissue needing debridement and expert care.", "id": 4024}, {"d": 2, "q": "A patient with a new ileostomy has high output and dizziness. Which complication is likely?", "o": ["Fluid overload from retention", "Hypertension from salt excess", "Dehydration and electrolyte loss", "Constipation from slow transit"], "a": 2, "r": "Ileostomy output is liquid and high in sodium and fluid.", "id": 4025}, {"d": 2, "q": "A patient receives a morphine infusion and has a respiratory rate of 8/min and pinpoint pupils. What is the antidote?", "o": ["Naloxone", "Flumazenil", "Atropine", "Protamine"], "a": 0, "r": "Naloxone reverses opioid respiratory depression.", "id": 4026}, {"d": 2, "q": "A patient has a haemoglobin of 62 g/L and is symptomatic after bleeding. What is expected?", "o": ["An iron tablet and discharge home", "A blood transfusion as prescribed", "Increased intake of oral fluids only", "A vitamin K injection for bleeding"], "a": 1, "r": "Severe symptomatic anaemia from blood loss needs red cell transfusion.", "id": 4027}, {"d": 2, "q": "Which patient needs the nurse's attention FIRST?", "o": ["A patient asking the nurse for the time of the next meal service", "A patient with a mild headache and a stable blood pressure reading", "A patient waiting for a discharge letter to go home this afternoon", "A post-operative patient with a falling SpO2 and a rising respiratory rate"], "a": 3, "r": "Falling oxygen saturation with a rising respiratory rate signals acute deterioration.", "id": 4028}, {"d": 2, "q": "A patient with a lower leg cast reports numbness in the toes and a tight feeling. What does the nurse do FIRST?", "o": ["Give a warm drink and reassure the patient that it will pass", "Cut the cast open without informing the provider or the team", "Apply heat to the toes to improve the circulation quickly", "Check circulation, movement and sensation and notify the provider urgently"], "a": 3, "r": "Neurovascular compromise needs immediate assessment and escalation.", "id": 4029}, {"d": 0, "q": "Which sequence is correct for using a fire extinguisher?", "o": ["Pull the pin, aim at the base, squeeze the handle and sweep", "Aim at the flames, sweep, pull the pin and then squeeze the handle", "Squeeze the handle, pull the pin, sweep and then aim at the top", "Sweep from above, pull the pin and then aim at the smoke"], "a": 0, "r": "PASS: Pull, Aim, Squeeze, Sweep.", "id": 4030}, {"d": 0, "q": "Which principle protects a nurse working near a radiation source?", "o": ["Stay close for the shortest time and wear no protection", "Limit time, increase distance and use shielding", "Work quickly with the source held near the body", "Share the exposure equally among all staff nearby"], "a": 1, "r": "Time, distance and shielding are the three basics of radiation safety.", "id": 4031}, {"d": 0, "q": "Which practice is correct when handling cytotoxic drugs?", "o": ["Wear a single pair of gloves and discard the waste in the general rubbish bin", "Wear a gown and double gloves, and dispose of waste in marked containers", "Crush the tablets freely on the open counter and wash the hands afterwards only", "Reuse the same gloves between patients to reduce the amount of waste produced"], "a": 1, "r": "Cytotoxic drugs are hazardous and need protective equipment and special waste disposal.", "id": 4032}, {"d": 0, "q": "Which strategy helps prevent errors with look-alike, sound-alike drug names?", "o": ["Use tall-man lettering and read the full name aloud before giving", "Store look-alike drugs together on the same shelf to make them easy to find", "Abbreviate the drug names on the chart so that the order is quicker to write", "Rely on memory when the drug is familiar to the nurse from daily work"], "a": 0, "r": "Distinct labelling and careful checking prevent confusion between similar names.", "id": 4033}, {"d": 0, "q": "A nurse manager inspires staff with a shared vision and encourages innovation. Which leadership style is this?", "o": ["Transformational", "Autocratic", "Laissez-faire", "Transactional"], "a": 0, "r": "Transformational leaders inspire and motivate staff towards a common vision.", "id": 4034}, {"d": 0, "q": "A nurse refuses to give a dose she knows is ten times too high. Which ethical principle is she following?", "o": ["Justice", "Veracity", "Fidelity", "Non-maleficence"], "a": 3, "r": "Non-maleficence is the duty to avoid causing harm.", "id": 4035}, {"d": 0, "q": "A competent patient wants to leave the hospital against medical advice. What should the nurse do?", "o": ["Block the exit until the doctor arrives and the patient has changed his mind", "Tell the patient that the family will be informed against his wishes", "Explain the risks, document the decision and give follow-up information", "Refuse to discuss the matter any further and call hospital security"], "a": 2, "r": "Competent patients may refuse. Ensure the choice is informed and provide a safety net.", "id": 4036}, {"d": 0, "q": "Which of the following BEST describes decision-making capacity?", "o": ["The patient's age being over eighteen years at the time of the decision", "The ability to understand, retain and weigh information and communicate a choice", "Agreement with the doctor's recommended treatment plan without question", "A signed consent form obtained without any discussion with the patient"], "a": 1, "r": "Capacity is decision-specific and involves understanding, retaining, weighing and communicating.", "id": 4037}, {"d": 0, "q": "Which is an example of an open-ended question?", "o": ["\"Tell me how you have been feeling since the surgery.\"", "\"Did you sleep well last night, and did you have any pain?\"", "\"Are you in any pain at the moment, on a scale of one to ten?\"", "\"Would you like your breakfast now or in about half an hour?\""], "a": 0, "r": "Open-ended questions invite descriptive answers instead of yes or no.", "id": 4038}, {"d": 0, "q": "Which approach helps a patient with chronic pain, in addition to medication?", "o": ["Strict bed rest for several weeks without any activity", "Avoiding all activity until the pain has completely gone", "Daily large doses of opioids taken at fixed times", "Heat, relaxation techniques and distraction"], "a": 3, "r": "Non-pharmacological measures complement drugs and improve coping.", "id": 4039}, {"d": 0, "q": "Which advice promotes healthy sleep?", "o": ["Keep a regular bedtime and avoid caffeine after noon", "Nap for several hours each afternoon whenever you feel tired", "Exercise vigorously just before bed to tire the body out", "Watch television in bed late at night to help you relax"], "a": 0, "r": "A routine and limited caffeine support sleep hygiene.", "id": 4040}, {"d": 0, "q": "A patient with dysphagia is starting oral intake. Which position is BEST?", "o": ["Sitting upright with the chin slightly tucked", "Lying flat with the head turned to the left", "Reclined at 20° with the neck extended", "Lying on the side with the head raised on one pillow"], "a": 0, "r": "Upright position with a chin tuck reduces aspiration risk.", "id": 4041}, {"d": 0, "q": "A bedridden patient has red, irritated skin in the perineal area from incontinence. Which action is MOST appropriate?", "o": ["Rub the skin vigorously with a dry towel after each episode", "Apply talcum powder to absorb the moisture on the skin", "Cleanse gently after each episode and apply a barrier cream", "Leave the skin uncovered and unwashed to let it dry out"], "a": 2, "r": "Gentle cleaning and a barrier cream protect the skin from moisture damage.", "id": 4042}, {"d": 0, "q": "Before accessing a needleless IV connector, what should the nurse do?", "o": ["Wipe it quickly with a dry piece of gauze before connecting the syringe", "Flush the hub with tap water from the nearest sink beforehand", "Scrub the hub with an antiseptic wipe for about 15 seconds and allow it to dry", "Touch the hub with a gloved hand and connect without any cleaning"], "a": 2, "r": "Scrubbing the hub reduces bloodstream infection.", "id": 4043}, {"d": 0, "q": "Which nutrients are MOST important for wound healing?", "o": ["Fat and caffeine intake", "Sugar and salt intake", "Starch and fibre intake", "Protein and vitamin C"], "a": 3, "r": "Protein and vitamin C are essential for collagen formation and tissue repair.", "id": 4044}, {"d": 0, "q": "A fire starts on a hospital ward. Which evacuation approach is used FIRST?", "o": ["Take all of the patients down the stairs at once to the exit", "Use the lifts to move patients rapidly out of the building", "Wait for the fire service to arrive before moving any of the patients", "Move patients horizontally to a safe compartment on the same floor"], "a": 3, "r": "Horizontal evacuation behind fire doors is usually the first step.", "id": 4045}, {"d": 0, "q": "A nurse is leaving a handover and notices a patient's IV has run dry. What should she do?", "o": ["Ignore it because the shift has ended and the next nurse will notice", "Ask the patient to call the nurse later when the bag is empty", "Replace the bag per protocol and inform the oncoming nurse", "Remove the cannula and leave the ward without recording anything"], "a": 2, "r": "Responsibility continues until the handover is complete. Act and communicate.", "id": 4046}, {"d": 0, "q": "A patient asks the nurse to hide a bruise from the doctor. What is the BEST response?", "o": ["Agree to keep the secret and say nothing to the team", "Explain that the team needs to know and ask about its cause", "Report the patient to hospital security for lying to the staff", "Tell the family and ask them to decide whether to inform the doctor"], "a": 1, "r": "Do not conceal findings. Explore the cause and ensure safety, including abuse.", "id": 4047}, {"d": 0, "q": "Which finding BEST shows a patient has understood insulin teaching?", "o": ["The patient nods several times during the verbal explanation", "The patient reads the leaflet silently for about ten minutes", "The patient says that he has used injections many times before", "The patient demonstrates drawing up and injecting a dose correctly"], "a": 3, "r": "Return demonstration shows skill and understanding.", "id": 4048}, {"d": 1, "q": "A pain scale from 0 to 10 is an example of which level of measurement?", "o": ["Nominal", "Ordinal", "Interval", "Ratio"], "a": 1, "r": "A pain scale ranks intensity, but the differences between points are not equal, so it is ordinal.", "id": 4049}, {"d": 1, "q": "What is the purpose of blinding in a clinical trial?", "o": ["To increase the sample size so that the study is more powerful", "To lower the cost of the trial by reducing the paperwork", "To reduce bias from expectations of participants or researchers", "To ensure that the results are statistically significant in the end"], "a": 2, "r": "Blinding prevents knowledge of the allocation from influencing reporting or assessment.", "id": 4050}, {"d": 1, "q": "What is the purpose of a pilot study?", "o": ["To replace the main study when funding is short or limited", "To publish the final results in a nursing journal quickly", "To test the feasibility of methods before the main study", "To increase the sample size of the main study by recruiting more"], "a": 2, "r": "A pilot study checks feasibility, procedures and sample size on a small scale.", "id": 4051}, {"d": 1, "q": "A test correctly gives a negative result for 80 of 100 healthy people. What is the specificity?", "o": ["20%", "100%", "50%", "80%"], "a": 3, "r": "Specificity is the proportion of people without disease who test negative.", "id": 4052}, {"d": 1, "q": "What is the effect of increasing the sample size in a study?", "o": ["It guarantees that the results of the study are always correct", "It reduces sampling error and narrows the confidence interval", "It removes all of the bias that was built into the design", "It makes the p value larger and the results less certain"], "a": 1, "r": "Larger samples give more precise estimates but do not remove bias.", "id": 4053}, {"d": 0, "q": "Which of the following is one of the WHO five moments for hand hygiene?", "o": ["After writing in the patient's chart at the desk", "Before putting on a pair of non-sterile gloves in the corridor", "Before touching a patient", "After walking between two clean areas of the ward"], "a": 2, "r": "The five moments are before touching a patient, before aseptic procedures, after body fluid exposure, after touching a patient and after touching surroundings.", "id": 4054}, {"d": 3, "q": "A woman with gestational diabetes asks about care. Which advice is correct?", "o": ["Stop all carbohydrates completely to prevent any weight gain in the baby", "Avoid all physical activity and stay in bed until after the birth of the baby", "Monitor blood glucose and follow a balanced diet with regular activity", "Expect that the condition needs no further checks during the pregnancy"], "a": 2, "r": "Diet, exercise and glucose monitoring are first-line, and insulin is used if targets are not met.", "id": 4055}, {"d": 3, "q": "A woman is 12 hours after a caesarean birth. Which nursing action is correct?", "o": ["Keep her flat in bed for three days to protect the wound from any strain", "Support the incision with a pillow when coughing and assist early walking", "Discourage coughing and deep breathing to avoid any pain at the incision", "Restrict all fluids until the bowel sounds have fully returned"], "a": 1, "r": "Splinting reduces pain, and early mobilisation reduces clots and chest complications.", "id": 4056}, {"d": 3, "q": "A fetus is in the breech position at 37 weeks. Which procedure may the provider offer?", "o": ["Immediate induction with oxytocin", "External cephalic version", "Fundal pressure to turn the baby", "Amniotomy to allow the baby to turn"], "a": 1, "r": "External cephalic version can turn a breech baby head down before labour.", "id": 4057}, {"d": 3, "q": "A woman receiving oxytocin has contractions every minute lasting 100 seconds and a falling fetal heart rate. What should the nurse do FIRST?", "o": ["Increase the infusion rate to complete the dilatation sooner", "Stop the oxytocin infusion, position her on her left side", "Continue the infusion and recheck the trace again in thirty minutes", "Prepare her to start pushing before the dilatation is complete"], "a": 1, "r": "This is uterine hyperstimulation, and the infusion must be stopped immediately.", "id": 4058}, {"d": 3, "q": "A woman at 10 weeks has severe vomiting, a uterus larger than expected, grape-like tissue passing and a very high hCG level. What is suspected?", "o": ["Ectopic pregnancy", "Threatened miscarriage", "Normal early pregnancy", "Hydatidiform mole"], "a": 3, "r": "A molar pregnancy shows excessive hCG, a large uterus and vesicles.", "id": 4059}, {"d": 3, "q": "A first-time mother feels the baby move for the first time. At what time is quickening usually felt?", "o": ["8 to 10 weeks", "24 to 28 weeks", "32 to 36 weeks", "16 to 20 weeks"], "a": 3, "r": "Quickening is usually noted between 16 and 20 weeks, and earlier in multiparous women.", "id": 4060}, {"d": 3, "q": "The umbilical cord is visible at the vaginal opening after rupture of membranes. What should the nurse do?", "o": ["Push the cord back inside the vagina and wait for the next contraction", "Ask the woman to push strongly to deliver the baby at once, before help arrives", "Cover the cord with a dry dressing and wait for labour to progress", "Place the woman in the knee-chest position, relieve pressure on the cord"], "a": 3, "r": "Cord prolapse is an emergency. Relieve pressure on the cord and prepare for urgent delivery.", "id": 4061}, {"d": 3, "q": "A breastfeeding mother has swollen, hard, tender breasts on day 4. What should the nurse advise?", "o": ["Feed frequently, apply warm compresses before feeds and cold packs after", "Stop breastfeeding for 48 hours to rest the swollen breasts and ease the pain", "Bind the breasts tightly and restrict fluids until the swelling settles", "Express all the milk and discard it for the next week until the breasts soften"], "a": 0, "r": "Frequent emptying relieves engorgement.", "id": 4062}, {"d": 3, "q": "A newborn is cold and has a temperature of 35.8 °C. Which action is BEST?", "o": ["Place the baby skin-to-skin with the mother", "Wrap the baby in a wet towel to improve the heat loss", "Place the baby near an open window to stimulate the breathing", "Bathe the baby in cool water to stimulate him to cry"], "a": 0, "r": "Skin-to-skin contact and warm covers prevent heat loss.", "id": 4063}, {"d": 4, "q": "A newborn has not passed meconium by 48 hours and has a distended abdomen. What is suspected?", "o": ["Hirschsprung disease", "Pyloric stenosis with projectile vomiting", "Intussusception with currant-jelly stools", "Gastroenteritis with watery diarrhoea"], "a": 0, "r": "Failure to pass meconium suggests an absence of ganglion cells in the colon.", "id": 4064}, {"d": 4, "q": "What advice BEST reduces the risk of sudden infant death?", "o": ["Place the baby on his front to prevent choking on any milk", "Use soft pillows and toys in the cot to keep him comfortable", "Place the baby on his back to sleep on a firm mattress", "Share a sofa with the baby to keep him warm at night"], "a": 2, "r": "Back sleeping on a firm surface lowers SIDS risk.", "id": 4065}, {"d": 4, "q": "Which sign shows a toddler is ready for toilet training?", "o": ["Stays dry for about two hours and can follow simple instructions", "Is at least five years old and can speak in full sentences", "Refuses to wear any clothing and runs about the house when asked to dress", "Has just started to crawl and pull to stand at the furniture in the house"], "a": 0, "r": "Physical and cognitive readiness, not a fixed age, guides toilet training.", "id": 4066}, {"d": 4, "q": "A child has a sore throat, a fever and a sandpaper-like rash with a strawberry tongue. Which treatment is expected?", "o": ["Antiviral therapy", "Corticosteroid cream", "Oral penicillin", "Antifungal drops"], "a": 2, "r": "This is scarlet fever, caused by group A streptococcus, and is treated with penicillin.", "id": 4067}, {"d": 4, "q": "A boy has difficulty climbing stairs, a waddling gait and uses his hands to push up on his thighs when rising. What is suspected?", "o": ["Cerebral palsy with spastic limbs", "Duchenne muscular dystrophy", "Spina bifida with a lumbar defect", "Congenital hip dysplasia with a limp"], "a": 1, "r": "This is Gowers' sign, typical of Duchenne muscular dystrophy.", "id": 4068}, {"d": 4, "q": "A 7-year-old who was previously dry starts wetting the bed. What should the nurse suggest first?", "o": ["Punish the child to stop the habit as soon as possible and discourage the wetting", "Restrict all fluids during the day to dry the bladder out before the night", "Wake the child every hour at night to scold him for the wet bed", "Assess for infection, diabetes and stress, and give reassurance"], "a": 3, "r": "Secondary enuresis needs assessment for medical and psychological causes.", "id": 4069}, {"d": 4, "q": "A 3-week-old cries for hours every evening but feeds and grows well. What advice is BEST for the parents?", "o": ["Start antibiotics for the abdominal pain and review next week", "Reassure them that infant colic is common and offer soothing techniques", "Switch immediately to solid food to settle the stomach and fill the baby up", "Leave the baby to cry alone in a dark room for hours until he stops"], "a": 1, "r": "Colic is common and self-limiting, so support and soothing help.", "id": 4070}, {"d": 4, "q": "A child with type 1 diabetes is sweaty, shaky and pale. What should the nurse do FIRST?", "o": ["Check the blood glucose and give a quick-acting carbohydrate if low", "Give the usual insulin dose immediately before checking the glucose", "Withhold all food and drink until the doctor comes to review the child at the bedside", "Wait for the next meal and observe how the child looks over the next hour"], "a": 0, "r": "These are signs of hypoglycaemia, which must be treated promptly with fast carbohydrate.", "id": 4071}, {"d": 4, "q": "An infant is below the 3rd percentile for weight with poor feeding. What should the nurse do?", "o": ["Reassure the mother that all babies grow differently and need no review", "Start solid foods immediately to increase the calories the infant takes each day", "Reduce the number of feeds to improve the appetite and the interest in food", "Assess feeding and growth, and refer for evaluation of failure to thrive"], "a": 3, "r": "Poor weight gain needs investigation of medical, feeding and social causes.", "id": 4072}, {"d": 5, "q": "A patient with schizophrenia often forgets to take his tablets. What option might help?", "o": ["A long-acting injectable antipsychotic as prescribed", "Stopping the medication when the symptoms have improved", "Doubling the daily dose of the oral tablets", "Relying on the family to remember each dose"], "a": 0, "r": "Depot injections improve adherence.", "id": 4073}, {"d": 5, "q": "A patient with Alzheimer's disease is prescribed donepezil. What is its purpose?", "o": ["To slow cognitive decline by boosting acetylcholine", "To treat hallucinations only and not memory loss", "To prevent seizures in the later stages of the disease", "To lower the blood pressure in older adults who have dementia"], "a": 0, "r": "Cholinesterase inhibitors modestly slow symptoms in mild to moderate Alzheimer's disease.", "id": 4074}, {"d": 5, "q": "A man whose wife died last week says, \"This can't be true. She is just away.\" Which stage of grief is this?", "o": ["Denial", "Anger", "Bargaining", "Acceptance"], "a": 0, "r": "Refusing to accept the loss is the denial stage.", "id": 4075}, {"d": 5, "q": "A patient offers the nurse an expensive gift on discharge. What is the BEST response?", "o": ["Accept it privately and say nothing to the rest of the team", "Ask for something more valuable in return for care", "Keep it and tell nobody about the offer, to avoid hurting the patient", "Politely decline, explain the policy and thank the patient"], "a": 3, "r": "Gifts can create boundary problems, so follow the policy.", "id": 4076}, {"d": 5, "q": "A patient tells his therapist he intends to kill a named neighbour. What is the nurse's duty?", "o": ["Keep it confidential in all cases and tell nobody about the threat", "Warn the potential victim and notify the authorities", "Wait to see whether he acts on the threat before telling anyone", "Advise the patient to apologise to the neighbour and go home"], "a": 1, "r": "A threat of serious harm to an identifiable person overrides confidentiality.", "id": 4077}, {"d": 5, "q": "A child with autism spectrum disorder becomes upset by a change in routine. Which approach is BEST?", "o": ["Make sudden changes to the routine to teach flexibility", "Give advance notice of changes and keep a consistent routine", "Insist on eye contact at all times during care and every procedure", "Use long, complex explanations before each procedure to prepare the child"], "a": 1, "r": "Predictability reduces distress for children with autism.", "id": 4078}, {"d": 5, "q": "A patient is placed in seclusion. Which nursing responsibility is MOST important?", "o": ["Leave the patient alone to calm down and check later", "Lock the door and check once at the end of the shift", "Continuous observation and regular assessment of needs", "Use seclusion as a punishment for the unwanted behaviour"], "a": 2, "r": "Seclusion needs close monitoring and prompt release when safe.", "id": 4079}, {"d": 5, "q": "A patient is agitated and paranoid with dilated pupils, sweating and a fast heart rate after taking an unknown drug. Which substance is MOST likely?", "o": ["Opioids", "Benzodiazepines", "Amphetamines", "Alcohol"], "a": 2, "r": "Stimulant intoxication causes agitation, mydriasis and tachycardia.", "id": 4080}, {"d": 5, "q": "A woman 10 days after giving birth is confused, hearing voices telling her to harm her baby. What is the PRIORITY?", "o": ["Reassure her that this is normal baby blues and will pass", "Leave her alone with the baby to encourage bonding and quiet reflection", "Ensure the safety of mother and baby and arrange urgent psychiatric care", "Encourage extra visitors to cheer her up and help with the baby at home"], "a": 2, "r": "Postpartum psychosis is a psychiatric emergency with a risk of harm to the infant.", "id": 4081}, {"d": 5, "q": "A man develops low mood and sleep problems two months after losing his job. Which diagnosis is most likely?", "o": ["Schizophrenia with a long prodrome", "Bipolar I disorder with a manic episode", "Dementia with progressive memory loss", "Adjustment disorder"], "a": 3, "r": "Symptoms occur within three months of an identifiable stressor and are out of proportion.", "id": 4082}, {"d": 3, "q": "A newborn boy has been circumcised. Which instruction is correct for the parents?", "o": ["Pull back the dressing and wash the area with strong soap each day", "Apply petroleum jelly to the area and report bleeding or poor urine output", "Immerse the baby in a hot bath after each nappy change", "Leave the area covered with a tight dressing for several days"], "a": 1, "r": "Keep the wound lubricated and watch for bleeding, infection and urinary retention.", "id": 4083}, {"d": 4, "q": "A 10-month-old has three days of high fever, which settles, and then a pink rash appears on the trunk. What is the likely diagnosis?", "o": ["Roseola infantum", "Measles", "Scarlet fever", "Kawasaki disease"], "a": 0, "r": "Roseola causes a high fever for about three days, followed by a rash once the fever has gone.", "id": 4084}, {"d": 6, "q": "A community class helps adults to stop smoking. Which level of prevention is this?", "o": ["Secondary prevention", "Tertiary prevention", "Primary prevention", "Rehabilitation"], "a": 2, "r": "Preventing disease before it occurs by changing risk behaviour is primary prevention.", "id": 4085}, {"d": 6, "q": "A child had anaphylaxis after the first dose of a vaccine. What should the nurse do before the next dose?", "o": ["Give the vaccine in the usual way and observe for 10 minutes", "Give half the dose with an antihistamine", "Withhold the dose and refer for specialist assessment", "Skip the observation period for the next dose"], "a": 2, "r": "A severe allergic reaction to a vaccine is a contraindication to further doses without specialist review.", "id": 4086}, {"d": 6, "q": "How should used needles be stored at home before disposal?", "o": ["In a rigid, puncture-resistant container with a secure lid", "In a plastic bag in the kitchen bin", "In an open cup beside the bed", "In an empty soft drink bottle with the cap left off"], "a": 0, "r": "A hard container with a lid protects family and waste handlers from needlestick injury.", "id": 4087}, {"d": 6, "q": "Which tool is used at a child health clinic to detect poor growth early?", "o": ["A single weight measurement at the age of one year", "Parental opinion about the child's size", "A growth chart with regular weight and length measurements", "A blood test taken every month"], "a": 2, "r": "Plotting growth over time reveals faltering growth at an early stage.", "id": 4088}, {"d": 6, "q": "A farm worker has been spraying pesticides. Which advice is MOST important?", "o": ["Eat lunch in the field to save time", "Reuse empty pesticide containers for water", "Spray on windy days to spread it widely", "Wear protective clothing and wash hands and body after exposure"], "a": 3, "r": "Protective equipment and good hygiene reduce absorption and poisoning.", "id": 4089}, {"d": 6, "q": "Which footwear advice reduces falls in older adults?", "o": ["Loose slippers worn around the house", "Walking in socks on polished floors", "High-heeled shoes for good posture", "Well-fitting, non-slip shoes with low heels"], "a": 3, "r": "Secure, flat, non-slip shoes improve stability.", "id": 4090}, {"d": 6, "q": "An older man has lost interest in activities, eats poorly and cannot concentrate. Which condition should the nurse consider?", "o": ["Normal ageing that needs no assessment", "Depression, which can be mistaken for dementia", "Hearing loss only, which needs a hearing aid", "A vitamin deficiency alone, to be treated at home"], "a": 1, "r": "Depression in older adults can present as poor concentration and withdrawal.", "id": 4091}, {"d": 6, "q": "An older woman has lost weight and has a poor appetite. Which advice is BEST?", "o": ["Give three large meals and no snacks", "Offer small, frequent, nutrient-dense meals and snacks", "Restrict her to a low-calorie diet", "Offer only fluids between meals"], "a": 1, "r": "Small frequent nutrient-dense meals support intake in older adults with poor appetite.", "id": 4092}, {"d": 6, "q": "Which lifestyle target helps prevent type 2 diabetes in high-risk adults?", "o": ["A modest weight loss of 5–7% with regular physical activity", "Rapid weight loss of 20% in one month", "A fixed bed rest routine", "Avoiding all fruit"], "a": 0, "r": "Moderate weight loss and about 150 minutes of weekly activity cut diabetes risk.", "id": 4093}, {"d": 6, "q": "What is public health surveillance?", "o": ["A one-off survey with no follow-up", "Private clinical care of a single patient", "A medical audit of a single hospital ward", "Ongoing systematic collection and analysis of health data for action"], "a": 3, "r": "Surveillance tracks disease trends to guide control measures.", "id": 4094}, {"d": 6, "q": "Which study design is MOST suitable for investigating a rare disease?", "o": ["Case-control study", "Cohort study", "Randomised controlled trial", "Cross-sectional survey of the general public"], "a": 0, "r": "Case-control studies start with cases and efficiently study rare outcomes.", "id": 4095}, {"d": 6, "q": "How should medicines be stored safely at home?", "o": ["In the bathroom cabinet near the shower", "In a cool, dry place out of reach of children", "On a sunny windowsill", "In the kitchen drawer within the child's reach"], "a": 1, "r": "Heat, moisture and access by children are hazards.", "id": 4096}, {"d": 6, "q": "A man says he does not think he is likely to get heart disease, despite his risk factors. Which Health Belief Model construct is this?", "o": ["Low perceived susceptibility", "High perceived severity", "Cues to action", "Self-efficacy"], "a": 0, "r": "The belief that one is unlikely to develop the condition reflects low perceived susceptibility.", "id": 4097}, {"d": 6, "q": "Which action helps a family caregiver avoid burnout?", "o": ["Taking on all the care without any breaks", "Ignoring their own health needs", "Refusing help from friends and neighbours", "Arranging regular respite care and sharing tasks with others"], "a": 3, "r": "Respite and shared care prevent exhaustion.", "id": 4098}, {"d": 6, "q": "A community nurse wants to know how many new cases of influenza occurred this winter. Which rate does she need?", "o": ["Prevalence rate", "Mortality rate", "Incidence rate", "Case-fatality rate"], "a": 2, "r": "Incidence counts new cases in a defined population over a period of time.", "id": 4099}];
+
+
+const OMSB100=[
+// ==========================================
+// OMSB 100 PRACTICE EXAM QUESTIONS
+// ==========================================
+  {
+    "d": 2,
+    "q": "A patient develops sudden onset of confusion, slurred speech, right-sided weakness, and facial drooping. The nurse suspects an acute stroke. What is the most critical initial action?",
+    "o": [
+      "Obtain an emergency CT scan of the head to differentiate ischemic from hemorrhagic stroke",
+      "Start an IV heparin infusion immediately",
+      "Place the patient in Trendelenburg position",
+      "Administer aspirin 325 mg orally immediately"
+    ],
+    "a": 0,
+    "r": "A non-contrast head CT scan must be obtained immediately to rule out intracranial hemorrhage before thrombolytic therapy (tPA) can be considered. The IV tPA window is typically 3 to 4.5 hours from symptom onset."
+  },
+  {
+    "d": 0,
+    "q": "A patient who started lithium therapy 2 weeks ago presents with tremors, nausea, and a serum lithium level of 2.2 mEq/L. What is the nurse's priority action?",
+    "o": [
+      "Withhold lithium and notify the physician immediately because the serum level indicates toxicity",
+      "Give the next scheduled dose since the level will self-correct",
+      "Continue lithium at the current dose and monitor serial levels",
+      "Administer an extra dose to reach the therapeutic range"
+    ],
+    "a": 0,
+    "r": "The therapeutic serum lithium range is 0.6 to 1.2 mEq/L. A level of 2.2 mEq/L indicates severe toxicity, risking confusion, seizures, and fatal arrhythmias. The nurse must hold the drug, notify the provider, and initiate supportive care."
+  },
+  {
+    "d": 2,
+    "q": "A child with suspected intussusception presents with intermittent severe abdominal pain, drawing the knees up to the chest, and currant jelly stools. What is the most appropriate initial diagnostic study?",
+    "o": [
+      "An air or water-soluble contrast enema",
+      "A plain abdominal X-ray",
+      "An upper GI barium swallow study",
+      "An abdominal CT scan with IV contrast"
+    ],
+    "a": 0,
+    "r": "An air (pneumatic) or hydrostatic contrast enema under fluoroscopy is both diagnostic and therapeutic, successfully reducing the telescoped bowel in 75% to 90% of intussusception cases without surgery."
+  },
+  {
+    "d": 0,
+    "q": "Which nursing action is most critical during the immediate post-extubation period?",
+    "o": [
+      "Monitor respiratory rate, SpO2, work of breathing, and watch for signs of stridor or laryngospasm",
+      "Remove all supplemental oxygen as quickly as possible",
+      "Place the patient in Trendelenburg position to improve oxygenation",
+      "Encourage the patient to eat solid foods immediately to regain strength"
+    ],
+    "a": 0,
+    "r": "Immediately post-extubation, airway patency and respiratory effort must be closely assessed. Stridor or laryngospasm indicates critical glottic edema and impending airway obstruction requiring immediate intervention."
+  },
+  {
+    "d": 0,
+    "q": "Which nursing action best promotes patient safety when implementing a 'time-out' immediately before a surgical procedure begins?",
+    "o": [
+      "Verifying the correct patient, correct site, and correct procedure with the entire surgical team",
+      "Ensuring the patient has remained NPO for at least 12 hours",
+      "Asking the patient to remove all jewelry and hair accessories",
+      "Confirming the primary surgeon's hospital operating credentials"
+    ],
+    "a": 0,
+    "r": "The Universal Protocol time-out requires the entire surgical team to pause immediately before incision to verbally verify the correct patient identity, correct operative site, and correct procedure to prevent wrong-site surgery."
+  },
+  {
+    "d": 2,
+    "q": "The nurse assesses a diabetic patient's feet at each clinical visit. What is the primary complication of peripheral neuropathy affecting the feet?",
+    "o": [
+      "Loss of protective sensation leading to undetected injuries and neuropathic ulcers",
+      "Rapid healing of minor skin wounds and fissures",
+      "Hyperreflexia and frequent muscle cramping",
+      "Increased cutaneous sensitivity to light touch"
+    ],
+    "a": 0,
+    "r": "Diabetic peripheral neuropathy causes sensory loss (loss of protective sensation), meaning minor friction, pressure, or trauma goes unnoticed until deep tissue ulcers, osteomyelitis, or severe infections develop."
+  },
+  {
+    "d": 2,
+    "q": "A patient is admitted with suspected sepsis. Which priority interventions must be executed within the first hour of care?",
+    "o": [
+      "Obtain blood cultures, administer broad-spectrum IV antibiotics, and initiate IV crystalloids at 30 mL/kg for hypotension or lactate ≥4 mmol/L",
+      "Immediate surgical consultation and strict NPO status",
+      "Administer IV fluids only while awaiting finalized blood culture results",
+      "Administer oral broad-spectrum antibiotics and monitor vital signs every 4 hours"
+    ],
+    "a": 0,
+    "r": "The Surviving Sepsis 1-hour bundle mandates obtaining blood cultures before antibiotics, administering broad-spectrum IV antibiotics, and infusing 30 mL/kg crystalloids for hypotension or elevated lactate. Every hour of delay increases mortality."
+  },
+  {
+    "d": 0,
+    "q": "A nurse accidentally sustains a needlestick injury from a patient with unknown HIV status. What is the nurse's immediate first action?",
+    "o": [
+      "Wash the puncture wound thoroughly with soap and water",
+      "Immediately start post-exposure prophylaxis medications before washing",
+      "Squeeze the wound forcefully to express blood and apply concentrated iodine",
+      "Apply a tight tourniquet proximal to the puncture site"
+    ],
+    "a": 0,
+    "r": "Following an accidental sharps injury, the wound must be washed immediately and gently with soap and water. Squeezing, sucking, or applying caustic antiseptics causes tissue trauma and is not recommended."
+  },
+  {
+    "d": 0,
+    "q": "A registered nurse is delegating care tasks to an unlicensed assistive personnel (UAP). Which task is appropriate to delegate?",
+    "o": [
+      "Measuring and recording vital signs in a hemodynamically stable patient",
+      "Performing the initial nursing assessment on a newly admitted patient",
+      "Administering scheduled oral medications from the medication cart",
+      "Interpreting a patient's SpO2 trend and titrating supplemental oxygen"
+    ],
+    "a": 0,
+    "r": "Routine, standardized, non-invasive tasks with predictable outcomes in stable patients (such as vital signs, hygiene, and I&O) can be delegated to UAPs. Clinical assessment, medication administration, and clinical decision-making cannot be delegated."
+  },
+  {
+    "d": 0,
+    "q": "The nurse is providing dietary education to a patient receiving warfarin therapy. Which guideline should the patient follow regarding foods high in vitamin K?",
+    "o": [
+      "Maintain a consistent daily intake of vitamin K-rich foods rather than eliminating them entirely",
+      "Eliminate all green leafy vegetables (spinach, kale, broccoli) completely from the diet",
+      "Double the intake of green vegetables to improve drug absorption",
+      "Consume large quantities of grapefruit juice to stabilize blood levels"
+    ],
+    "a": 0,
+    "r": "Warfarin is a vitamin K antagonist. Patients do not need to avoid vitamin K completely; instead, they must maintain consistent dietary intake from day to day to prevent unpredictable fluctuations in the INR."
+  },
+  {
+    "d": 0,
+    "q": "What is the normal reference range for serum potassium in an adult?",
+    "o": [
+      "3.5 to 5.0 mEq/L",
+      "1.5 to 2.5 mEq/L",
+      "6.0 to 8.0 mEq/L",
+      "10 to 15 mEq/L"
+    ],
+    "a": 0,
+    "r": "Normal adult serum potassium is 3.5 to 5.0 mEq/L. Levels below 3.5 mEq/L (hypokalemia) or above 5.0 mEq/L (hyperkalemia) can trigger life-threatening cardiac dysrhythmias."
+  },
+  {
+    "d": 2,
+    "q": "A patient is recovering from a total hip arthroplasty (posterior approach). Which nursing intervention prevents prosthesis dislocation?",
+    "o": [
+      "Maintain hip abduction using a wedge pillow and avoid adduction, internal rotation, and flexion beyond 90 degrees",
+      "Allow the patient to sit on low, soft armchairs immediately after surgery",
+      "Encourage the patient to bend the hip beyond 90 degrees to stretch the capsule",
+      "Position the patient with the legs crossed at the midline for comfort"
+    ],
+    "a": 0,
+    "r": "Posterior hip precautions require maintaining abduction (using an abductor pillow), avoiding hip flexion past 90 degrees, and preventing internal rotation or adduction (no crossing legs) to prevent the femoral head from dislocating."
+  },
+  {
+    "d": 2,
+    "q": "The nurse is providing discharge instructions to a patient with heart failure. Which symptom should prompt the patient to seek immediate medical attention?",
+    "o": [
+      "Sudden weight gain of 2 to 3 kg in 2 days, worsening dyspnea, or peripheral edema",
+      "Occasional mild tension headache",
+      "Mild fatigue following physical exercise",
+      "Feeling hungry between scheduled meals"
+    ],
+    "a": 0,
+    "r": "Rapid weight gain in heart failure reflects fluid retention rather than body mass. Daily weights are essential, and a gain of 2 to 3 kg over several days signals acute decompensated heart failure requiring diuretic adjustment."
+  },
+  {
+    "d": 2,
+    "q": "The nurse assesses a patient using the FAST stroke scale. What does the letter 'T' represent?",
+    "o": [
+      "Time (noting the exact time symptoms started and calling emergency services immediately)",
+      "Temperature (evaluating for an underlying febrile illness)",
+      "Tremor (checking for fine distal motor tremors)",
+      "Tongue (assessing for hypoglossal nerve deviation)"
+    ],
+    "a": 0,
+    "r": "In the FAST mnemonic (Face, Arm, Speech, Time), 'T' stands for Time. Documenting the exact time of symptom onset determines whether the patient qualifies for IV thrombolysis (within 3 to 4.5 hours)."
+  },
+  {
+    "d": 2,
+    "q": "The nurse is providing dietary guidance to a patient with hypertension. Which dietary recommendation is most appropriate?",
+    "o": [
+      "Restrict daily sodium intake (<2,300 mg/day, ideally 1,500 mg) and adhere to the DASH diet rich in fruits, vegetables, and low-fat dairy",
+      "Increase protein and red meat consumption as primary iron sources to lower blood pressure",
+      "Drink caffeinated beverages to stimulate renal perfusion",
+      "Consume a high-fat diet to lower systemic vascular resistance"
+    ],
+    "a": 0,
+    "r": "The Dietary Approaches to Stop Hypertension (DASH) diet combined with sodium restriction (<1,500-2,300 mg/day) can significantly lower systolic blood pressure by 8 to 14 mmHg."
+  },
+  {
+    "d": 2,
+    "q": "A patient receiving inpatient treatment for deep vein thrombosis suddenly develops sharp chest pain and acute dyspnea. What complication does the nurse suspect?",
+    "o": [
+      "Pulmonary Embolism (PE)",
+      "Pleuritis",
+      "Acute Myocardial Infarction",
+      "Spontaneous Pneumothorax"
+    ],
+    "a": 0,
+    "r": "Deep vein thrombi (especially in the iliofemoral veins) can dislodge and embolize to the pulmonary arterial bed, causing a life-threatening pulmonary embolism characterized by sudden dyspnea, pleuritic pain, and tachycardia."
+  },
+  {
+    "d": 0,
+    "q": "Twelve hours after an uncomplicated vaginal delivery, the patient's uterine fundus is palpated above the umbilicus and displaced to the right. What is the nurse's priority action?",
+    "o": [
+      "Assist the patient to void, as a distended bladder displaces the uterus",
+      "Administer an IV oxytocin bolus immediately",
+      "Vigorously massage the fundus continuously",
+      "Immediately notify the obstetrician of postpartum hemorrhage"
+    ],
+    "a": 0,
+    "r": "A full bladder displaces the uterus upward and to the right, inhibiting effective myometrial contraction and increasing postpartum hemorrhage risk. Having the patient void will typically return the fundus to the midline."
+  },
+  {
+    "d": 0,
+    "q": "A patient undergoing aggressive chemotherapy has an absolute white blood cell count of 1,000/mcL. What isolation precautions should the nurse institute?",
+    "o": [
+      "Protective / reverse isolation (neutropenic precautions)",
+      "Contact precautions",
+      "Airborne isolation precautions",
+      "Droplet precautions"
+    ],
+    "a": 0,
+    "r": "Severe neutropenia impairs host defenses. Unlike standard or transmission-based precautions designed to protect others from the patient, protective (neutropenic) precautions protect the immunocompromised patient from external pathogens."
+  },
+  {
+    "d": 2,
+    "q": "The nurse is assessing a patient following a tibial fracture for possible compartment syndrome. What is the most reliable early clinical indicator?",
+    "o": [
+      "Severe pain out of proportion to the injury, especially exacerbated by passive stretching",
+      "Paralysis and motor deficit of the distal extremity",
+      "Marked skin pallor and mottling",
+      "Absence of distal peripheral pulses"
+    ],
+    "a": 0,
+    "r": "Severe, unremitting pain out of proportion to the injury and intensified by passive stretch is the earliest and most sensitive sign of compartment syndrome. Pulselessness, pallor, and paralysis are late signs indicating irreversible ischemia."
+  },
+  {
+    "d": 0,
+    "q": "The nurse assesses a patient's peripheral IV site. Which assessment finding indicates phlebitis?",
+    "o": [
+      "Erythema, warmth, localized swelling, and tenderness tracking along the vein",
+      "Cool, pale, edematous skin surrounding the catheter insertion site",
+      "Free gravity flow of IV solution with zero resistance",
+      "Localized edema without redness or tenderness where the site is cool to touch"
+    ],
+    "a": 0,
+    "r": "Phlebitis is inflammation of the vein characterized by redness, warmth, pain, and a palpable cord along the vein path. Coolness and pallor with edema describe IV infiltration, not phlebitis."
+  },
+  {
+    "d": 0,
+    "q": "What is the normal resting respiratory rate range for a healthy adult?",
+    "o": [
+      "12 to 20 breaths per minute",
+      "6 to 10 breaths per minute",
+      "25 to 35 breaths per minute",
+      "20 to 30 breaths per minute"
+    ],
+    "a": 0,
+    "r": "The normal adult resting respiratory rate is 12 to 20 breaths/min. A rate below 12 is bradypnea; a rate above 20 is tachypnea."
+  },
+  {
+    "d": 2,
+    "q": "What is the priority nursing diagnosis for a patient immediately following a percutaneous liver biopsy?",
+    "o": [
+      "Risk for hemorrhage related to the vascular nature of the liver tissue",
+      "Anxiety related to histological examination results",
+      "Deficient knowledge related to post-procedure home care",
+      "Impaired skin integrity related to the puncture site"
+    ],
+    "a": 0,
+    "r": "The liver is an extremely vascular organ receiving roughly 25% of cardiac output. Hemorrhage is the most dangerous immediate complication; patients are positioned on their right side post-procedure to apply pressure over the biopsy site."
+  },
+  {
+    "d": 2,
+    "q": "A nurse is caring for a patient with a chest tube draining a traumatic hemothorax. Which finding requires immediate notification of the surgeon?",
+    "o": [
+      "Drainage of 200 mL or more of bright red blood in a single hour",
+      "Continuous gentle bubbling in the suction control chamber",
+      "Water level fluctuations (tidaling) in the water-seal chamber with breathing",
+      "50 mL of serosanguinous drainage over an 8-hour shift"
+    ],
+    "a": 0,
+    "r": "Chest tube drainage exceeding 200 mL/hr of frank red blood indicates active intrathoracic hemorrhage that may require emergency surgical thoracotomy. Tidaling and suction bubbling are expected findings."
+  },
+  {
+    "d": 2,
+    "q": "Which medication class is contraindicated in patients with bronchial asthma due to the risk of inducing severe bronchospasm?",
+    "o": [
+      "Non-selective beta-blockers (e.g., propranolol)",
+      "Angiotensin-converting enzyme (ACE) inhibitors",
+      "Calcium channel blockers",
+      "HMG-CoA reductase inhibitors (statins)"
+    ],
+    "a": 0,
+    "r": "Non-selective beta-blockers antagonize both beta-1 (cardiac) and beta-2 (bronchial) receptors. Blocking beta-2 receptors prevents bronchodilation and can trigger severe, refractory bronchospasm in asthmatic patients."
+  },
+  {
+    "d": 2,
+    "q": "The nurse assesses a patient 24 hours post-thyroidectomy. Which assessment finding requires immediate clinical intervention?",
+    "o": [
+      "A positive Trousseau's sign, perioral tingling, and muscle cramps",
+      "Mild hoarseness of voice on postoperative day 1",
+      "A small amount of serosanguinous drainage on the dressing",
+      "Mild sore throat related to endotracheal intubation"
+    ],
+    "a": 0,
+    "r": "Inadvertent trauma to or excision of the parathyroid glands during thyroidectomy precipitates acute hypocalcemia, heralded by paresthesias, tetany, and positive Trousseau's/Chvostek's signs. IV Calcium Gluconate must be readily available."
+  },
+  {
+    "d": 0,
+    "q": "Which infection control precautions must be implemented for a patient admitted with active pulmonary tuberculosis?",
+    "o": [
+      "Airborne precautions in an airborne infection isolation room (negative pressure) with N95 respirators",
+      "Droplet precautions with surgical masks within 3 feet",
+      "Contact precautions with gown and gloves only",
+      "Reverse / protective isolation precautions"
+    ],
+    "a": 0,
+    "r": "Mycobacterium tuberculosis is transmitted via microscopic airborne droplet nuclei. Patients require negative-pressure isolation (6-12 air exchanges/hr) and healthcare personnel must wear fit-tested N95 respirators."
+  },
+  {
+    "d": 0,
+    "q": "What is the correct sequence for donning personal protective equipment (PPE)?",
+    "o": [
+      "Gown, mask or respirator, goggles or face shield, gloves",
+      "Goggles, mask, gloves, gown",
+      "Gloves, gown, mask, goggles",
+      "Mask, gloves, gown, goggles"
+    ],
+    "a": 0,
+    "r": "Standard CDC sequence for donning PPE is: 1) Gown, 2) Mask/Respirator, 3) Goggles/Face Shield, and 4) Gloves pulled over the gown cuffs."
+  },
+  {
+    "d": 0,
+    "q": "A psychiatric patient reports hearing internal voices instructing them to jump from a window. How is this psychiatric finding classified?",
+    "o": [
+      "Command auditory hallucinations",
+      "Delusions of reference",
+      "Thought broadcasting",
+      "Perceptual illusions"
+    ],
+    "a": 0,
+    "r": "Command auditory hallucinations involve voices directing the patient to perform specific actions, often involving self-harm or violence. This represents a psychiatric emergency requiring immediate safety precautions."
+  },
+  {
+    "d": 0,
+    "q": "What is the primary requirement for valid informed consent prior to an invasive procedure?",
+    "o": [
+      "The patient understands the nature, risks, benefits, and alternatives of the procedure before giving voluntary agreement",
+      "The patient gives verbal consent without written documentation",
+      "The patient signs the consent form regardless of comprehension",
+      "The family signs the consent while excluding the competent patient"
+    ],
+    "a": 0,
+    "r": "Informed consent requires that a competent patient receives clear information regarding the procedure, risks, benefits, and alternatives, understands the disclosure, and voluntarily signs without coercion."
+  },
+  {
+    "d": 2,
+    "q": "Using the Wallace Rule of Nines for an adult burn victim, what percentage of total body surface area (TBSA) is allocated to the entire head and neck?",
+    "o": [
+      "9% (4.5% anterior, 4.5% posterior)",
+      "4.5% total",
+      "18% total",
+      "36% total"
+    ],
+    "a": 0,
+    "r": "Under the adult Rule of Nines: entire head and neck = 9%, each arm = 9%, anterior trunk = 18%, posterior trunk = 18%, each leg = 18%, and perineum = 1%."
+  },
+  {
+    "d": 0,
+    "q": "What is the correct sequential order of the five phases of the nursing process?",
+    "o": [
+      "Assessment, Diagnosis, Planning, Implementation, Evaluation",
+      "Diagnosis, Assessment, Planning, Evaluation, Implementation",
+      "Assessment, Planning, Implementation, Diagnosis, Evaluation",
+      "Planning, Assessment, Diagnosis, Implementation, Evaluation"
+    ],
+    "a": 0,
+    "r": "The nursing process follows the systematic mnemonic ADPIE: Assessment (data collection), Diagnosis (clinical problem identification), Planning (outcomes/interventions), Implementation (delivering care), and Evaluation (measuring outcomes)."
+  },
+  {
+    "d": 0,
+    "q": "During electronic fetal monitoring in active labor, the nurse observes early decelerations that mirror the contraction pattern. What is the etiology of this pattern?",
+    "o": [
+      "Benign transient fetal head compression during uterine contractions",
+      "Uteroplacental insufficiency requiring emergency delivery",
+      "Umbilical cord compression",
+      "Acute fetal hypoxemia and acidosis"
+    ],
+    "a": 0,
+    "r": "Early decelerations have a nadir that mirrors the peak of the contraction and represent a benign vagal reflex caused by fetal head compression. Late decelerations reflect uteroplacental insufficiency, and variable decelerations indicate cord compression."
+  },
+  {
+    "d": 0,
+    "q": "The foundational 'five rights' of medication administration consist of right patient, right drug, right dose, right route, and:",
+    "o": [
+      "Right time",
+      "Right pharmacy",
+      "Right storage",
+      "Right color"
+    ],
+    "a": 0,
+    "r": "The core five rights are: Right Patient, Right Drug, Right Dose, Right Route, and Right Time."
+  },
+  {
+    "d": 0,
+    "q": "What is the mandatory infection control measure for hand hygiene when caring for a patient with Clostridioides difficile enteritis?",
+    "o": [
+      "Washing hands with soap and water to physically rinse spores away",
+      "Using alcohol-based hand rub for 20 seconds",
+      "Wearing an N95 respirator during routine room entry",
+      "Placing the patient in a negative-pressure room"
+    ],
+    "a": 0,
+    "r": "C. diff forms dormant spores that are resistant to alcohol-based hand sanitizers. Mechanical friction and running water with soap are required to physically remove spores from hands."
+  },
+  {
+    "d": 2,
+    "q": "Which assessment finding is a priority concern following a surgical parathyroidectomy?",
+    "o": [
+      "Tingling and numbness around the mouth and fingertips (circumoral paresthesia)",
+      "Mild incisional pain rated 4/10",
+      "Mild sore throat secondary to intubation",
+      "Temperature of 37.8 °C"
+    ],
+    "a": 0,
+    "r": "Parathyroidectomy eliminates or reduces parathyroid hormone, causing rapid hypocalcemia. Perioral numbness and tingling are early signs of neuromuscular irritability that can rapidly escalate to laryngospasm and seizures."
+  },
+  {
+    "d": 2,
+    "q": "Which arterial blood gas (ABG) panel represents uncompensated respiratory acidosis?",
+    "o": [
+      "pH 7.28, PaCO2 55 mmHg, HCO3 24 mEq/L",
+      "pH 7.52, PaCO2 28 mmHg, HCO3 22 mEq/L",
+      "pH 7.30, PaCO2 38 mmHg, HCO3 16 mEq/L",
+      "pH 7.48, PaCO2 40 mmHg, HCO3 30 mEq/L"
+    ],
+    "a": 0,
+    "r": "Respiratory acidosis is identified by an acidic pH (<7.35) driven by elevated carbon dioxide (PaCO2 >45 mmHg). A normal HCO3 (22-26 mEq/L) confirms lack of renal compensation."
+  },
+  {
+    "d": 0,
+    "q": "What is the single most effective intervention for preventing healthcare-associated infections (HAIs)?",
+    "o": [
+      "Consistent, thorough hand hygiene before and after each patient contact",
+      "Placing every newly admitted patient into single-room isolation",
+      "Wearing non-sterile gloves at all times without washing hands",
+      "Administering broad-spectrum prophylactic antibiotics to all inpatients"
+    ],
+    "a": 0,
+    "r": "Proper hand hygiene (WHO 5 Moments) is the cornerstone of infection prevention and the single most effective method to stop transmission of pathogens."
+  },
+  {
+    "d": 2,
+    "q": "A patient with acute angina is taking sublingual nitroglycerin tablets. If chest pain persists after the first tablet, what is the correct instruction?",
+    "o": [
+      "Wait 5 minutes, take a second tablet, and call emergency services if pain persists after a third tablet (taken 5 minutes later)",
+      "Take all three tablets simultaneously for maximum rapid relief",
+      "Wait 30 minutes before taking a second dose",
+      "Avoid taking additional tablets and rest quietly for 1 hour"
+    ],
+    "a": 0,
+    "r": "Angina protocol: Dissolve 1 SL tablet under tongue at onset of pain. If pain persists after 5 minutes, call EMS and take a 2nd tablet. A 3rd tablet may be taken 5 minutes later (maximum 3 doses over 15 minutes)."
+  },
+  {
+    "d": 2,
+    "q": "A patient is prescribed furosemide 40 mg daily. Which electrolyte imbalance must the nurse monitor for most closely?",
+    "o": [
+      "Hypokalemia",
+      "Hyperkalemia",
+      "Hypernatremia",
+      "Hypercalcemia"
+    ],
+    "a": 0,
+    "r": "Furosemide is a loop diuretic that blocks Na+/K+/2Cl- symporters in the ascending limb of Henle, causing substantial urinary potassium excretion and predisposing to hypokalemia."
+  },
+  {
+    "d": 2,
+    "q": "A patient is admitted with cerebral edema and elevated intracranial pressure (ICP). Which bed positioning is contraindicated?",
+    "o": [
+      "Trendelenburg position (head lower than the body)",
+      "Head of bed elevated 30 to 45 degrees",
+      "Head maintained in neutral midline alignment",
+      "Semi-Fowler's position with neutral neck support"
+    ],
+    "a": 0,
+    "r": "Trendelenburg position impedes jugular venous return from the brain, precipitously spiking intracranial pressure. Elevating the head of bed 30-45 degrees with midline alignment promotes venous drainage."
+  },
+  {
+    "d": 0,
+    "q": "What is the most critical pre-procedure instruction for a patient scheduled for an elective colonoscopy?",
+    "o": [
+      "Complete the oral bowel preparation solution exactly as prescribed to ensure clear mucosal visualization",
+      "Maintain NPO status for only 2 hours before the procedure",
+      "Discontinue all prescription medications 7 days prior",
+      "Limit physical activity for one week beforehand"
+    ],
+    "a": 0,
+    "r": "Complete bowel cleansing via prescribed oral solutions (polyethylene glycol) is essential; residual fecal matter obscures the colonic mucosa, hiding polyps and necessitating procedure cancellation."
+  },
+  {
+    "d": 2,
+    "q": "A patient in acute respiratory failure has an arterial PaO2 of 55 mmHg. Which nursing diagnosis takes immediate clinical priority?",
+    "o": [
+      "Impaired Gas Exchange related to alveolar-capillary membrane alterations",
+      "Deficient Knowledge related to disease management",
+      "Activity Intolerance related to dyspnea",
+      "Anxiety related to acute illness"
+    ],
+    "a": 0,
+    "r": "A PaO2 of 55 mmHg represents severe hypoxemia. Following Maslow's hierarchy and ABC priorities, physiological gas exchange takes precedence over educational or psychosocial needs."
+  },
+  {
+    "d": 2,
+    "q": "A patient on maintenance warfarin therapy has a routine lab check revealing an INR of 5.0 (target 2.0 to 3.0). The patient is asymptomatic. What is the nurse's priority action?",
+    "o": [
+      "Hold the warfarin dose, notify the healthcare provider, and assess the patient for occult or overt bleeding",
+      "Administer an IV heparin bolus to counteract the elevated value",
+      "Administer oral aspirin 325 mg immediately",
+      "Double the next scheduled warfarin dose"
+    ],
+    "a": 0,
+    "r": "An INR of 5.0 is significantly supratherapeutic, markedly elevating bleeding risk. The nurse must hold further doses, evaluate for bleeding, and contact the provider for orders (e.g., oral vitamin K)."
+  },
+  {
+    "d": 2,
+    "q": "A patient with decompensated liver cirrhosis exhibits lethargy, confusion, asterixis (flapping hand tremor), and elevated blood ammonia. What condition is present?",
+    "o": [
+      "Hepatic encephalopathy",
+      "Wernicke-Korsakoff encephalopathy",
+      "Hyponatremic encephalopathy",
+      "Diabetic ketoacidosis"
+    ],
+    "a": 0,
+    "r": "In severe cirrhosis, portosystemic shunting and hepatocyte failure prevent conversion of neurotoxic ammonia into urea. Ammonia crosses the blood-brain barrier, triggering encephalopathy and asterixis."
+  },
+  {
+    "d": 2,
+    "q": "A patient with stage 5 chronic kidney disease on maintenance hemodialysis requires dietary counseling. Which dietary restrictions are essential?",
+    "o": [
+      "Restricting potassium, phosphorus, sodium, and daily fluid intake",
+      "An unrestricted diet between dialysis sessions",
+      "High-protein diet without fluid limitations",
+      "Restricting vitamin C intake only"
+    ],
+    "a": 0,
+    "r": "End-stage renal disease requires strict limits on potassium (arrhythmia risk), phosphorus (bone disease/calcification), sodium, and fluids (pulmonary edema and interdialytic hypertension)."
+  },
+  {
+    "d": 0,
+    "q": "When starting a packed red blood cell transfusion, how long must the nurse remain at the patient's bedside to monitor for acute hemolytic reactions?",
+    "o": [
+      "At least the first 15 minutes of the infusion",
+      "The first 5 minutes",
+      "At least 60 minutes",
+      "Only until the blood passes the drip chamber"
+    ],
+    "a": 0,
+    "r": "Severe acute hemolytic or anaphylactic transfusion reactions typically occur within the first 50 mL or first 15 minutes of infusion. The nurse must stay at the bedside during this critical initial window."
+  },
+  {
+    "d": 0,
+    "q": "When removing contaminated personal protective equipment (PPE), which item must be removed first?",
+    "o": [
+      "Gloves",
+      "Gown",
+      "Mask or respirator",
+      "Goggles or face shield"
+    ],
+    "a": 0,
+    "r": "Gloves are considered the most heavily contaminated PPE piece and must be removed first to prevent contaminating hands, clothing, and other gear during subsequent removal steps."
+  },
+  {
+    "d": 0,
+    "q": "The nurse is providing education to a young adult patient starting an SSRI antidepressant. Which critical adverse effects must be emphasized?",
+    "o": [
+      "Sexual dysfunction, nausea, and an increased risk of suicidal thoughts/behaviors early in therapy",
+      "Severe constipation and permanent bradycardia",
+      "Tardive dyskinesia after brief therapy",
+      "Rapid weight loss and permanent insomnia exclusively"
+    ],
+    "a": 0,
+    "r": "SSRIs commonly cause GI distress and sexual dysfunction. Additionally, they carry a black-box warning for increased risk of suicidal ideation and behaviors during initial therapy in children, adolescents, and young adults."
+  },
+  {
+    "d": 2,
+    "q": "What classic clinical presentation indicates intussusception in an infant or toddler?",
+    "o": [
+      "Sudden, intermittent colicky abdominal pain with knees drawn to chest, vomiting, and currant jelly stools",
+      "Continuous periumbilical pain migrating to the right lower quadrant",
+      "Projectile non-bilious vomiting immediately after every feed",
+      "Jaundice, high fever, and tea-colored urine"
+    ],
+    "a": 0,
+    "r": "Intussusception presents classically with sudden paroxysmal colicky pain, leg flexion, vomiting, and stools containing mixed blood and mucus ('currant jelly' stool)."
+  },
+  {
+    "d": 0,
+    "q": "According to Maslow's Hierarchy of Needs, which category represents the highest clinical priority in organizing nursing care?",
+    "o": [
+      "Physiological needs (airway, breathing, circulation, fluid, nutrition)",
+      "Safety and security needs",
+      "Love and belonging needs",
+      "Self-esteem and recognition needs"
+    ],
+    "a": 0,
+    "r": "Basic physiological survival needs (ABC priorities, fluid balance, oxygenation) form the base of Maslow's pyramid and must be fulfilled before addressing higher-level needs."
+  },
+  {
+    "d": 0,
+    "q": "A registered nurse receives a verbal medication order over the telephone from a physician. What is the required safety procedure?",
+    "o": [
+      "Write the order down, read it back verbatim to the prescriber, obtain verbal confirmation, and ensure countersignature within the facility timeframe",
+      "Transcribe the order and administer immediately without reading back",
+      "Request the physician to fax the order within 48 hours before giving the dose",
+      "Write the order down and call back only if calculations seem unusual"
+    ],
+    "a": 0,
+    "r": "The Joint Commission and international patient safety standards require a complete 'write down, read back, and confirm' sequence for all verbal and telephone orders to eliminate transcription errors."
+  },
+  {
+    "d": 2,
+    "q": "What is the normal fasting plasma glucose range for a non-diabetic adult?",
+    "o": [
+      "70 to 100 mg/dL (3.9 to 5.6 mmol/L)",
+      "50 to 70 mg/dL",
+      "110 to 140 mg/dL",
+      "140 to 180 mg/dL"
+    ],
+    "a": 0,
+    "r": "Normal fasting blood glucose in adults is 70 to 100 mg/dL. Fasting glucose from 100 to 125 mg/dL defines impaired fasting glucose (prediabetes), and ≥126 mg/dL on two occasions confirms diabetes."
+  },
+  {
+    "d": 0,
+    "q": "Which pharmacological agent is the specific antidote for acetaminophen (paracetamol) toxicity?",
+    "o": [
+      "N-acetylcysteine (NAC)",
+      "Naloxone",
+      "Protamine sulfate",
+      "Flumazenil"
+    ],
+    "a": 0,
+    "r": "N-acetylcysteine restores hepatic glutathione reserves, binding the toxic metabolite NAPQI and preventing hepatocyte necrosis if administered promptly after acetaminophen overdose."
+  },
+  {
+    "d": 2,
+    "q": "Which position is most appropriate to optimize lung expansion in a patient experiencing an acute asthma attack?",
+    "o": [
+      "High Fowler's position (sitting upright at 90 degrees)",
+      "Supine flat with legs elevated",
+      "Trendelenburg position",
+      "Prone position"
+    ],
+    "a": 0,
+    "r": "Sitting upright in High Fowler's position allows the abdominal contents to drop downward away from the diaphragm, maximizing thoracic expansion and lowering the work of breathing."
+  },
+  {
+    "d": 0,
+    "q": "An order reads: Infuse 1,000 mL 0.9% Normal Saline IV over 8 hours using tubing with a drop factor of 20 gtt/mL. What is the infusion rate in drops per minute (gtt/min)?",
+    "o": [
+      "42 gtt/min",
+      "21 gtt/min",
+      "83 gtt/min",
+      "125 gtt/min"
+    ],
+    "a": 0,
+    "r": "Drip rate = (Total Volume in mL × Drop Factor) / Time in minutes. (1000 mL × 20 gtt/mL) / (8 hours × 60 min) = 20,000 / 480 = 41.67, which rounds to 42 gtt/min."
+  },
+  {
+    "d": 2,
+    "q": "How is rheumatoid arthritis (RA) primarily characterized in contrast to osteoarthritis?",
+    "o": [
+      "A systemic autoimmune disorder causing symmetrical joint inflammation and prolonged morning stiffness lasting over an hour",
+      "A degenerative joint disorder affecting weight-bearing joints asymmetrically",
+      "A metabolic disorder resulting from uric acid crystal deposition in joints",
+      "A bacterial infection of synovial tissue requiring IV antibiotics"
+    ],
+    "a": 0,
+    "r": "RA is a systemic autoimmune condition causing symmetrical polyarthritis, synovitis, and morning stiffness lasting >1 hour that improves with movement. Osteoarthritis is non-inflammatory wear-and-tear worsening with use."
+  },
+  {
+    "d": 0,
+    "q": "In standardized clinical communication, what does the acronym SBAR stand for?",
+    "o": [
+      "Situation, Background, Assessment, Recommendation",
+      "Situation, Brief, Assessment, Report",
+      "Subject, Background, Analysis, Resolution",
+      "Safety, Background, Action, Response"
+    ],
+    "a": 0,
+    "r": "SBAR (Situation, Background, Assessment, Recommendation) provides a standardized, concise communication framework for clinical handoffs and provider escalations."
+  },
+  {
+    "d": 0,
+    "q": "What method provides definitive confirmation of correct nasogastric (NG) tube placement prior to the first enteral feeding?",
+    "o": [
+      "Abdominal/chest X-ray visualization, supplemented by aspirate pH testing (pH ≤5.5) at bedside",
+      "Auscultation over the epigastrium while injecting a 30 mL air bolus",
+      "Aspirating fluid and inspecting color without pH verification",
+      "Checking if the patient can speak clearly without coughing"
+    ],
+    "a": 0,
+    "r": "Radiographic confirmation (X-ray) is the gold standard for NG tube tip verification. Epigastric air auscultation is unreliable and no longer recommended by evidence-based guidelines."
+  },
+  {
+    "d": 2,
+    "q": "A child presents to the emergency room with suspected acute epiglottitis. Which classic cluster of findings should the nurse expect?",
+    "o": [
+      "High fever, drooling, dysphagia, muffled ('hot potato') voice, and sitting forward in a tripod position",
+      "Barking 'seal-like' brassy cough and inspiratory stridor that worsens at night",
+      "Low-grade fever, runny nose, and productive cough",
+      "Expiratory wheezing with prolonged expiratory phase"
+    ],
+    "a": 0,
+    "r": "Acute epiglottitis is a medical emergency caused by Haemophilus influenzae type b, presenting with high fever, drooling (due to painful swallowing), dysphonia, and tripod posture. Invasive throat inspection is strictly contraindicated."
+  },
+  {
+    "d": 2,
+    "q": "A patient presents with retrosternal chest pain radiating to the left arm, diaphoresis, and nausea. Which medication should the nurse anticipate administering first?",
+    "o": [
+      "Chewed aspirin (162 to 325 mg)",
+      "IV nitroglycerin infusion",
+      "IV beta-blocker bolus",
+      "IV heparin bolus"
+    ],
+    "a": 0,
+    "r": "Chewing non-enteric aspirin facilitates rapid buccal and gastric absorption, immediately inhibiting cyclooxygenase-1 and thromboxane A2 to arrest coronary platelet thrombosis."
+  },
+  {
+    "d": 0,
+    "q": "What is the most accurate and reliable indicator of acute changes in a hospitalized patient's fluid balance status?",
+    "o": [
+      "Daily body weight measurements taken at the same time on the same scale",
+      "Frequency of urination reported by the patient",
+      "Assessment of patient thirst sensation",
+      "Skin turgor assessment over the sternum"
+    ],
+    "a": 0,
+    "r": "One kilogram of acute weight change corresponds to approximately one liter of fluid gain or loss. Daily weights are far more sensitive and objective than thirst, skin turgor, or urine frequency."
+  },
+  {
+    "d": 0,
+    "q": "Which infection control isolation category applies to a patient admitted with suspected or confirmed meningococcal meningitis?",
+    "o": [
+      "Droplet precautions in addition to standard precautions",
+      "Airborne precautions with negative pressure room",
+      "Contact precautions only",
+      "Standard precautions without any transmission-based isolation"
+    ],
+    "a": 0,
+    "r": "Neisseria meningitidis is transmitted via large respiratory droplets. Droplet precautions (surgical mask within 3-6 feet) are required until the patient has received 24 hours of effective antimicrobial therapy."
+  },
+  {
+    "d": 2,
+    "q": "The nurse is evaluating a patient's subcutaneous insulin injection technique. Which statement indicates a need for additional education?",
+    "o": [
+      "\"I should vigorously massage the injection site right after giving the insulin.\"",
+      "\"I can store my opened vial of insulin at room temperature for up to 28 days.\"",
+      "\"I will rotate injection sites systematically across my abdomen.\"",
+      "\"I will pinch a fold of skin and inject at a 45 to 90 degree angle.\""
+    ],
+    "a": 0,
+    "r": "Massaging the injection site alters the absorption kinetics of subcutaneous insulin, causing unpredictably rapid absorption and dangerous hypoglycemia. Gentle pressure is acceptable, but no rubbing."
+  },
+  {
+    "d": 0,
+    "q": "The nurse notes a 2 x 2 cm area of persistent, non-blanchable erythema over a patient's calcaneus with intact epidermis. How should this be staged?",
+    "o": [
+      "Stage 1 Pressure Injury",
+      "Stage 2 Pressure Injury",
+      "Deep Tissue Pressure Injury",
+      "Stage 3 Pressure Injury"
+    ],
+    "a": 0,
+    "r": "A Stage 1 pressure injury is characterized by localized, intact skin with non-blanchable erythema over a bony prominence. Stage 2 involves partial-thickness skin loss with exposed dermis."
+  },
+  {
+    "d": 0,
+    "q": "What type of wound healing occurs when a surgical incision is cleanly approximated and closed immediately with sutures or staples?",
+    "o": [
+      "First intention (primary) healing",
+      "Second intention (granulation) healing",
+      "Third intention (delayed primary) healing",
+      "Secondary epithelialization"
+    ],
+    "a": 0,
+    "r": "Primary intention occurs when clean wound edges are directly approximated with sutures, staples, or adhesive, resulting in minimal tissue loss, rapid healing, and minimal scarring."
+  },
+  {
+    "d": 0,
+    "q": "The World Health Organization (WHO) recommends exclusive breastfeeding for which duration after birth?",
+    "o": [
+      "The first 6 months of life",
+      "The first 3 months of life",
+      "The first 12 months of life",
+      "The first 18 months of life"
+    ],
+    "a": 0,
+    "r": "WHO and UNICEF recommend exclusive breastfeeding for the first 6 months (no other food or water), followed by complementary foods with continued breastfeeding up to 2 years or beyond."
+  },
+  {
+    "d": 0,
+    "q": "What is the mandatory nursing safety precaution before administering intravenous potassium chloride?",
+    "o": [
+      "Perform an independent double-check with a second nurse, ensure proper dilution, and infuse via an electronic pump",
+      "Administer as a rapid direct IV bolus to quickly correct hypokalemia",
+      "Give undiluted through a central line for fastest absorption",
+      "Refrigerate the medication until the moment of administration"
+    ],
+    "a": 0,
+    "r": "IV Potassium Chloride is a high-alert medication. It must NEVER be given IV push or bolus (which causes immediate fatal cardiac arrest). It must be diluted, infused on a regulated pump, and double-checked by two RNs."
+  },
+  {
+    "d": 0,
+    "q": "A patient is prescribed amoxicillin 500 mg PO. The pharmacy supplies 250 mg tablets. How many tablets should the nurse administer?",
+    "o": [
+      "2 tablets",
+      "1 tablet",
+      "0.5 tablet",
+      "3 tablets"
+    ],
+    "a": 0,
+    "r": "Dose = Desired / On-hand = 500 mg / 250 mg = 2 tablets."
+  },
+  {
+    "d": 0,
+    "q": "In healthcare quality and safety frameworks, how is a 'sentinel event' defined?",
+    "o": [
+      "An unexpected occurrence involving death, permanent harm, or severe temporary harm requiring immediate root cause analysis",
+      "A near-miss error caught prior to reaching the patient",
+      "Any adverse event causing minor discomfort treated with routine medication",
+      "An expected surgical complication documented in the informed consent"
+    ],
+    "a": 0,
+    "r": "A sentinel event is defined by the Joint Commission and health authorities as an unexpected safety event resulting in patient death, serious permanent physical/psychological injury, or loss of limb/function."
+  },
+  {
+    "d": 0,
+    "q": "An Rh-negative pregnant client at 10 weeks gestation has an Rh-positive partner. When should Rho(D) immune globulin (RhoGAM) be administered?",
+    "o": [
+      "At 28 weeks gestation, within 72 hours postpartum if the infant is Rh-positive, and after any potential fetomaternal bleeding event",
+      "Every 4 weeks throughout the entire pregnancy",
+      "Only at the time of delivery regardless of newborn Rh status",
+      "Only if the neonate tests Rh-negative"
+    ],
+    "a": 0,
+    "r": "RhoGAM prevents Rh isoimmunization and is routinely administered at 28 weeks gestation, within 72 hours of delivering an Rh-positive baby, and following any sensitizing event (amniocentesis, trauma, miscarriage)."
+  },
+  {
+    "d": 0,
+    "q": "A patient expresses sadness, stating, 'I feel like no one here cares about me.' Which response demonstrates therapeutic communication?",
+    "o": [
+      "\"It sounds like you're feeling lonely and disconnected. Can you tell me more about that?\"",
+      "\"Don't worry, everyone on this floor cares about you very much.\"",
+      "\"I know exactly how you feel; hospital stays are very hard.\"",
+      "\"You shouldn't feel that way; you are receiving excellent medical care.\""
+    ],
+    "a": 0,
+    "r": "Therapeutic communication uses reflection and open-ended exploration to validate the patient's feelings and encourage expression without offering false reassurance or invalidating emotions."
+  },
+  {
+    "d": 2,
+    "q": "Which three behavioral components are evaluated by the Glasgow Coma Scale (GCS)?",
+    "o": [
+      "Eye opening response, verbal response, and motor response",
+      "Pupillary light reflex, pain response, and deep tendon reflexes",
+      "Blood pressure, respiratory rate, and pulse quality",
+      "Orientation, memory, and cognitive calculation"
+    ],
+    "a": 0,
+    "r": "GCS assesses three clinical parameters: Eye Opening (E, max 4), Verbal Response (V, max 5), and Motor Response (M, max 6), yielding a score from 3 to 15."
+  },
+  {
+    "d": 2,
+    "q": "A patient in diabetic ketoacidosis (DKA) is receiving a continuous IV regular insulin infusion. Which serum electrolyte requires the most vigilant monitoring and timely replacement?",
+    "o": [
+      "Potassium",
+      "Calcium",
+      "Sodium",
+      "Magnesium"
+    ],
+    "a": 0,
+    "r": "Insulin drives glucose and extracellular potassium into cells. Even if serum potassium appears normal initially, insulin infusion can cause rapid, precipitous hypokalemia leading to fatal cardiac arrhythmias."
+  },
+  {
+    "d": 0,
+    "q": "A patient receiving IV vancomycin develops sudden facial flushing, erythematous rash on the neck and torso, and mild hypotension during the infusion. What is occurring?",
+    "o": [
+      "Red Man Syndrome caused by rapid histamine release from rapid drug infusion",
+      "A true IgE-mediated anaphylactic reaction requiring epinephrine",
+      "Stevens-Johnson syndrome",
+      "An expected benign drug effect requiring no action"
+    ],
+    "a": 0,
+    "r": "Red Man Syndrome is an adverse infusion-related reaction caused by rapid degranulation of mast cells releasing histamine. It is managed by stopping or slowing the infusion rate and administering antihistamines, not epinephrine."
+  },
+  {
+    "d": 0,
+    "q": "A newborn at 1 minute of life has an APGAR score of 2. What is the immediate clinical priority?",
+    "o": [
+      "Immediate neonatal cardiopulmonary resuscitation",
+      "Place the infant skin-to-skin on the mother's chest",
+      "Dry and stimulate the infant under a radiant warmer for 5 minutes",
+      "Administer routine IM vitamin K and eye prophylaxis"
+    ],
+    "a": 0,
+    "r": "An APGAR score of 0 to 3 at 1 minute indicates severe cardiorespiratory depression requiring immediate, aggressive neonatal resuscitation (positive pressure ventilation and airway support)."
+  },
+  {
+    "d": 0,
+    "q": "When calculating a patient's fluid balance, which clinical items are categorized exclusively as output?",
+    "o": [
+      "Urine, surgical wound drainage, nasogastric aspirate, emesis, and liquid stool",
+      "Oral liquids and gelatin",
+      "Packed red blood cells and fresh frozen plasma",
+      "Intravenous crystalloid infusions and IV flushes"
+    ],
+    "a": 0,
+    "r": "Output encompasses all fluids excreted or drained from the body: urine, emesis, liquid stool, drain output, chest tube drainage, and gastric aspirate."
+  },
+  {
+    "d": 0,
+    "q": "What personal protective equipment (PPE) is mandatory before entering the room of a patient on contact precautions?",
+    "o": [
+      "Gown and gloves",
+      "Surgical mask and eye goggles",
+      "N95 respirator mask only",
+      "No PPE if staff are fully vaccinated"
+    ],
+    "a": 0,
+    "r": "Contact precautions prevent transmission of organisms spread by direct or indirect contact (MRSA, VRE, C. diff). A clean isolation gown and gloves must be donned prior to entering the room."
+  },
+  {
+    "d": 0,
+    "q": "Which ethical principle in nursing practice emphasizes keeping promises, maintaining trustworthiness, and following through on commitments made to patients?",
+    "o": [
+      "Fidelity",
+      "Beneficence",
+      "Non-maleficence",
+      "Veracity"
+    ],
+    "a": 0,
+    "r": "Fidelity refers to faithfulness, keeping promises, and maintaining loyalty and professional commitments. Veracity is truth-telling; beneficence is doing good; non-maleficence is avoiding harm."
+  },
+  {
+    "d": 0,
+    "q": "When providing education to new parents regarding Sudden Infant Death Syndrome (SIDS) prevention, which instruction is most critical?",
+    "o": [
+      "Place the infant on their back (supine) on a firm, flat mattress for every sleep",
+      "Place the infant in a prone position to prevent choking",
+      "Bed-share with the mother to facilitate night feeding",
+      "Use plush pillows, soft bumper pads, and heavy blankets in the crib"
+    ],
+    "a": 0,
+    "r": "The American Academy of Pediatrics 'Back to Sleep' campaign mandates supine sleeping on a firm, flat surface without loose bedding or soft objects, reducing SIDS incidence by >50%."
+  },
+  {
+    "d": 0,
+    "q": "A hospitalized patient experiences an active generalized tonic-clonic seizure. What is the nurse's priority action?",
+    "o": [
+      "Protect the patient from injury, turn them onto their side to protect the airway, and time the seizure",
+      "Insert a padded tongue blade into the mouth to prevent tongue biting",
+      "Firmly restrain the flailing limbs to prevent fractures",
+      "Administer oral antiepileptic medications immediately"
+    ],
+    "a": 0,
+    "r": "Priority seizure care: protect head and limbs from trauma, position on side to facilitate oral drainage and airway patency, and note duration. Never force objects into the mouth or restrain convulsing limbs."
+  },
+  {
+    "d": 2,
+    "q": "Which laboratory finding presents the most immediate risk of precipitating fatal cardiac dysrhythmias?",
+    "o": [
+      "Serum potassium of 6.8 mEq/L",
+      "Serum sodium of 130 mEq/L",
+      "Serum calcium of 8.5 mg/dL",
+      "Serum phosphorus of 3.5 mg/dL"
+    ],
+    "a": 0,
+    "r": "Severe hyperkalemia (potassium >6.5 mEq/L) dangerously depolarizes cardiac cell membranes, producing peaked T waves, widening QRS, and risking immediate progression to ventricular fibrillation or asystole."
+  },
+  {
+    "d": 2,
+    "q": "Which antimicrobial is the standard first-line intravenous antibiotic for severe infections caused by Methicillin-Resistant Staphylococcus aureus (MRSA)?",
+    "o": [
+      "Vancomycin",
+      "Ciprofloxacin",
+      "Ceftriaxone",
+      "Amoxicillin-clavulanate"
+    ],
+    "a": 0,
+    "r": "MRSA is resistant to all beta-lactam antibiotics. Intravenous Vancomycin (a glycopeptide) remains the standard first-line treatment, with linezolid or daptomycin as alternatives."
+  },
+  {
+    "d": 0,
+    "q": "The nurse receives report on four postoperative patients. Which assessment finding requires the most immediate clinical intervention?",
+    "o": [
+      "An oxygen saturation of 88% on room air",
+      "Urine output of 45 mL/hr",
+      "Tympanic temperature of 37.6 °C",
+      "Postoperative incisional pain rated 5 out of 10"
+    ],
+    "a": 0,
+    "r": "Applying ABC prioritization, an SpO2 of 88% represents significant acute hypoxemia (breathing impairment) and demands immediate evaluation and oxygen therapy before stable vitals or moderate pain."
+  },
+  {
+    "d": 2,
+    "q": "For a patient with severe chronic obstructive pulmonary disease (COPD) and chronic hypercapnia, what target SpO2 range should the nurse maintain?",
+    "o": [
+      "88% to 92%",
+      "98% to 100%",
+      "94% to 96%",
+      "80% to 85%"
+    ],
+    "a": 0,
+    "r": "In chronic CO2 retainers, administering excessive oxygen can blunt hypoxic ventilatory drive and worsen V/Q mismatch, leading to CO2 retention and narcosis. Titrating to 88-92% optimizes oxygenation safely."
+  },
+  {
+    "d": 0,
+    "q": "Which guiding principle governs accurate, legally defensible nursing documentation?",
+    "o": [
+      "Documenting care accurately, objectively, completely, and in a timely manner",
+      "Charting only when unexpected adverse events occur",
+      "Using personal abbreviations freely to save charting time",
+      "Correcting documentation errors by applying white-out or erasing"
+    ],
+    "a": 0,
+    "r": "Nursing documentation must be factual, objective, accurate, complete, and timely. Erasing or whiting out errors is illegal; errors must be corrected with a single strike-through, dated, and initialed."
+  },
+  {
+    "d": 0,
+    "q": "Which routine immunizations are recommended for administration to a healthy newborn at birth in standard national immunization programs?",
+    "o": [
+      "BCG (Bacillus Calmette-Guérin) and Hepatitis B (first dose)",
+      "Measles, Mumps, Rubella (MMR)",
+      "Diphtheria, Tetanus, Pertussis (DTP)",
+      "Varicella vaccine"
+    ],
+    "a": 0,
+    "r": "In national vaccination schedules (including Oman and WHO recommendations), BCG (for tuberculosis) and the birth dose of Hepatitis B vaccine are administered immediately after birth."
+  },
+  {
+    "d": 0,
+    "q": "Which clinical complications are most directly linked to prolonged physical immobility in hospitalized patients?",
+    "o": [
+      "Deep vein thrombosis (DVT) and pressure injuries",
+      "Acute metabolic acidosis",
+      "Symptomatic hypoglycemia",
+      "Severe hypomagnesemia"
+    ],
+    "a": 0,
+    "r": "Immobility promotes venous stasis (triggering DVT) and constant pressure over bony prominences (causing tissue ischemia and pressure injuries). Early mobilization and repositioning are key."
+  },
+  {
+    "d": 2,
+    "q": "Which acid-base disturbance is characteristically induced by prolonged, persistent vomiting or nasogastric suctioning?",
+    "o": [
+      "Metabolic alkalosis",
+      "Metabolic acidosis",
+      "Respiratory acidosis",
+      "Respiratory alkalosis"
+    ],
+    "a": 0,
+    "r": "Vomiting causes substantial loss of hydrochloric acid (H+ and Cl-) from gastric secretions, leaving an excess of bicarbonate in the blood and precipitating metabolic alkalosis (frequently with hypokalemia)."
+  },
+  {
+    "d": 2,
+    "q": "An HIV-positive patient has a confirmed CD4 T-cell count of 150 cells/mcL. What is the patient at greatest risk for developing?",
+    "o": [
+      "Opportunistic infections such as Pneumocystis jirovecii pneumonia (PCP)",
+      "Community-acquired viral upper respiratory infections only",
+      "Uncomplicated seasonal influenza",
+      "Type 2 diabetes mellitus"
+    ],
+    "a": 0,
+    "r": "A CD4 count below 200 cells/mcL meets the CDC definition of AIDS, predisposing the patient to life-threatening opportunistic infections (PCP, toxoplasmosis, CMV, MAC) requiring prophylactic antimicrobial coverage."
+  },
+  {
+    "d": 0,
+    "q": "A patient's total urine output over an 8-hour shift is 150 mL (approximately 18.7 mL/hr). How should the nurse document this finding?",
+    "o": [
+      "Oliguria",
+      "Polyuria",
+      "Diuresis",
+      "Expected normal urinary output"
+    ],
+    "a": 0,
+    "r": "Oliguria is defined as urine output <400-500 mL/24 hours or <0.5 mL/kg/hr in adults (typically <30 mL/hr). Normal adult urine output is at least 30 mL/hr."
+  },
+  {
+    "d": 2,
+    "q": "Which pharmacological agent is recommended as the standard first-line oral monotherapy for type 2 diabetes mellitus?",
+    "o": [
+      "Metformin",
+      "Insulin glargine",
+      "DPP-4 inhibitors (e.g., sitagliptin)",
+      "Sulfonylureas (e.g., glimepiride)"
+    ],
+    "a": 0,
+    "r": "Metformin (a biguanide) decreases hepatic glucose production, enhances insulin sensitivity, does not cause hypoglycemia when used as monotherapy, and is the evidence-based first-line oral agent."
+  },
+  {
+    "d": 0,
+    "q": "The nurse assesses a sacral wound demonstrating full-thickness skin loss with visible subcutaneous adipose tissue, but without exposure of bone, tendon, or muscle. How is this pressure injury staged?",
+    "o": [
+      "Stage 3 Pressure Injury",
+      "Stage 2 Pressure Injury",
+      "Stage 1 Pressure Injury",
+      "Stage 4 Pressure Injury"
+    ],
+    "a": 0,
+    "r": "Stage 3 pressure injury involves full-thickness tissue loss where subcutaneous fat may be visible, but bone, tendon, or muscle are not exposed. Stage 4 involves exposed or directly palpable bone, tendon, or muscle."
+  },
+  {
+    "d": 2,
+    "q": "A patient with traumatic brain injury has an intracranial pressure (ICP) of 22 mmHg and a mean arterial pressure (MAP) of 80 mmHg. What is the cerebral perfusion pressure (CPP)?",
+    "o": [
+      "58 mmHg",
+      "102 mmHg",
+      "180 mmHg",
+      "44 mmHg"
+    ],
+    "a": 0,
+    "r": "Cerebral Perfusion Pressure (CPP) = Mean Arterial Pressure (MAP) - Intracranial Pressure (ICP). CPP = 80 - 22 = 58 mmHg. Normal CPP is 60 to 100 mmHg; values <60 mmHg signify compromised cerebral perfusion."
+  },
+  {
+    "d": 2,
+    "q": "On postoperative day 2, a patient suddenly reports crushing substernal chest pain, diaphoresis, and dyspnea. What is the nurse's immediate priority action?",
+    "o": [
+      "Obtain a 12-lead ECG immediately, notify the physician, apply supplemental oxygen, and ensure patent IV access",
+      "Administer prescribed oral analgesics and reassess pain in 30 minutes",
+      "Encourage deep breathing exercises and incentive spirometry",
+      "Apply a cold pack to the chest and place in supine position"
+    ],
+    "a": 0,
+    "r": "Sudden crushing chest pain and diaphoresis postoperatively indicate acute coronary syndrome. Obtaining a 12-lead ECG immediately allows differentiation of STEMI from NSTEMI for rapid reperfusion therapy."
+  },
+  {
+    "d": 2,
+    "q": "For which cardiac dysrhythmia is emergency unsynchronized electrical defibrillation indicated?",
+    "o": [
+      "Ventricular Fibrillation (VF) and pulseless Ventricular Tachycardia (pVT)",
+      "Hemodynamically stable Atrial Fibrillation",
+      "First-degree AV Block",
+      "Sinus Tachycardia"
+    ],
+    "a": 0,
+    "r": "Unsynchronized defibrillation is used exclusively for pulseless, chaotic shockable rhythms: Ventricular Fibrillation and pulseless Ventricular Tachycardia. Atrial fibrillation with a pulse uses synchronized cardioversion."
+  },
+  {
+    "d": 2,
+    "q": "An arterial blood gas reveals: pH 7.20, PaCO2 28 mmHg, HCO3 10 mEq/L. How should the nurse interpret this result?",
+    "o": [
+      "Metabolic acidosis with partial respiratory compensation (Kussmaul breathing)",
+      "Metabolic alkalosis with respiratory compensation",
+      "Respiratory alkalosis with metabolic compensation",
+      "Uncompensated respiratory acidosis"
+    ],
+    "a": 0,
+    "r": "A low pH (<7.35) combined with low HCO3 (<22 mEq/L) defines metabolic acidosis. The low PaCO2 (<35 mmHg) reflects rapid, deep Kussmaul respirations blowing off CO2 in an attempt to compensate."
+  },
+  {
+    "d": 2,
+    "q": "A patient with a hemoglobin level of 7.2 g/dL presents with exertional dyspnea, fatigue, and tachycardia (HR 105 bpm). What intervention should the nurse anticipate?",
+    "o": [
+      "Transfusion of Packed Red Blood Cells (PRBCs)",
+      "Oral iron supplementation alone",
+      "Intramuscular vitamin B12 injections",
+      "Oral folic acid therapy"
+    ],
+    "a": 0,
+    "r": "When hemoglobin drops below 7 to 8 g/dL and the patient exhibits symptomatic tissue hypoxia (tachycardia, dyspnea), packed red blood cell transfusion is indicated to rapidly restore oxygen-carrying capacity."
+  },
+  {
+    "d": 0,
+    "q": "A patient's employer calls the nursing station demanding clinical details regarding the employee's diagnosis and expected discharge date. What is the nurse's legal and ethical obligation?",
+    "o": [
+      "Decline to disclose any medical information without the patient's explicit written authorization, citing patient confidentiality",
+      "Provide a brief summary of the diagnosis to assist with work scheduling",
+      "Disclose the information because the employer provides the group health insurance",
+      "Transfer the call to another nurse to avoid confrontation"
+    ],
+    "a": 0,
+    "r": "Under healthcare confidentiality laws and professional ethics, protected health information cannot be disclosed to third parties—including employers or insurance payers—without the patient's explicit written authorization."
+  },
+  {
+    "d": 0,
+    "q": "Prior to administering a scheduled medication, the nurse discovers that the patient's identification wristband name does not match the electronic medication administration record (eMAR). What must the nurse do?",
+    "o": [
+      "Withhold the medication and verify the patient's identity using at least two unique identifiers before proceeding",
+      "Administer the medication as planned and report the clerical discrepancy afterward",
+      "Ask the patient their name and proceed if they confirm verbally",
+      "Assume the mismatch is a minor clerical error and administer the dose"
+    ],
+    "a": 0,
+    "r": "Any identification discrepancy mandates immediate cessation of medication administration. The nurse must verify identity using at least two valid identifiers (full name, medical record number, birth date) and resolve the wristband error before giving any drug."
+  },
+  {
+    "d": 1,
+    "q": "A clinical nurse specialist is evaluating evidence to update the hospital's catheter-associated urinary tract infection (CAUTI) prevention protocol. According to the hierarchy of evidence, which source provides the highest quality evidence?",
+    "o": [
+      "A systematic review and meta-analysis of randomized controlled trials",
+      "A well-designed prospective cohort study",
+      "An expert panel consensus statement",
+      "A single descriptive multi-center survey"
+    ],
+    "a": 0,
+    "r": "Systematic reviews and meta-analyses of randomized controlled trials (RCTs) represent Level I evidence, the highest tier in the evidence hierarchy, offering the strongest guidance for evidence-based practice changes."
+  }
+];
+
