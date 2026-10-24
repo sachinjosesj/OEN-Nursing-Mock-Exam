@@ -695,6 +695,18 @@ input[type=number]:focus { border-color: var(--accent); outline: 2px solid rgba(
 .dlg-b{display:flex;gap:10px;justify-content:flex-end}.dlg-b .btn{min-height:42px;padding:0 18px;font-weight:600}
 @media (max-width:420px){.dlg-b .btn{flex:1}}
 .modalbox .dlg-t{text-transform:none;letter-spacing:0;color:var(--fg);font-size:1.15rem;font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--fg);font:600 .82rem var(--font);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.topic{border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.topic summary{padding:14px;cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.topic summary::-webkit-details-marker{display:none}
+.topic summary small{font-weight:600;color:var(--muted);white-space:nowrap}
+.topic .body{padding:0 16px 14px}
+.topic ul{margin:6px 0 12px;padding-left:20px;line-height:1.6}
+.topic li{margin:4px 0}
+.tip{background:var(--sel);border-left:3px solid var(--accent);padding:8px 12px;border-radius:8px;font-size:.92rem;margin-bottom:12px}
+#st-q{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--fg);font:inherit}
 </style>
 
 
@@ -744,6 +756,7 @@ input[type=number]:focus { border-color: var(--accent); outline: 2px solid rgba(
 <div class="wrap" id="app"></div>
 
 <script src="questions.js"></script>
+<script src="study.js"></script>
 <script>
 const DOMAINS=["Principles of Care", "Evidence-Based Practice, Research and Epidemiology", "Adult Health", "Maternal Health", "Child Health", "Mental Health", "Community Health and Gerontology"];
 const PER_SET=100, MIN_PER_Q=1.5, DEFAULT_PASS=60;
@@ -1012,6 +1025,7 @@ function home(){
     </div>
   <p class="muted">Practice for the Omani Examination for Nurses (OEN): 100 single-best-answer scenario questions in 2 hours 30 minutes, weighted by the published blueprint.</p></div></div>
   ${activeCard}
+  <button class="card" id="go-study" style="text-align:left;width:100%"><b>Study materials</b><span>Quick notes for every domain, with a drill for each</span></button>
   <div class="panel stack">
     <h3>Real-style papers (harder)</h3><div class="grid" id="real-picks">${PICKS.filter(p=>p.id.startsWith('real')).slice().reverse().map(pcard).join('')}</div>
     <h3>Question bank sets</h3><div class="grid" id="picks">${PICKS.filter(p=>!p.id.startsWith('dom')&&!p.id.startsWith('real')).map(pcard).join('')}</div>
@@ -1174,7 +1188,7 @@ function result(){
   $('#pm').onchange=e=>{S.passMark=Math.max(1,Math.min(100,+e.target.value||DEFAULT_PASS));result()};
   document.querySelectorAll('.again-btn, #again, #again-top').forEach(b=>{b.onclick=(e)=>{e.preventDefault();goHome();}});
 }
-function render(){if(S.view==='home')home();else if(S.view==='intro')intro();else if(S.view==='exam')exam();else result()}
+function render(){if(S.view==='home')home();else if(S.view==='study')study();else if(S.view==='intro')intro();else if(S.view==='exam')exam();else result()}
 document.addEventListener('keydown',e=>{
   if(S.view!=='exam'||S.stage!=='q'||S.popup||['INPUT','TEXTAREA'].includes(e.target.tagName))return;
   const k=e.key.toLowerCase();
@@ -1182,6 +1196,30 @@ document.addEventListener('keydown',e=>{
   else if(e.key==='ArrowRight'){if(S.i<S.qs.length-1)go(S.i+1);else{S.stage='review';S.rf='all';render()}}else if(e.key==='ArrowLeft')go(S.i-1);
   else if(k==='f'){S.flag[S.i]=!S.flag[S.i];render()}
 });
+function study(){
+  if(S.sd===undefined)S.sd=-1; if(S.sq===undefined)S.sq='';
+  app.innerHTML=`<div class="stack">
+    <div class="top"><div class="row" style="display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%"><h1 style="margin:0">Study materials</h1><button class="btn" id="st-back">&larr; Back</button></div>
+    <p class="muted">Quick notes for each OEN domain. Open a topic, then practise that domain.</p></div>
+    <input id="st-q" type="search" placeholder="Search notes, e.g. potassium, shock, sensitivity" value="${esc(S.sq)}">
+    <div class="chips" id="st-chips"></div><div class="stack" id="st-list"></div></div>`;
+  stList();
+  $('#st-q').oninput=e=>{S.sq=e.target.value;if(S.sq)S.sd=-1;stList()};
+  $('#st-back').onclick=()=>{S={view:'home',cfg:S.cfg};render();window.scrollTo(0,0)};
+}
+function stList(){
+  const q=S.sq.toLowerCase();
+  $('#st-chips').innerHTML=[[-1,'All'],...DOMAINS.map((n,i)=>[i,n.split(',')[0].replace('Evidence-Based Practice','Evidence-Based').replace(' and Gerontology','')])].map(([d,n])=>`<button class="chip" data-sd="${d}" aria-pressed="${S.sd===d}">${esc(n)}</button>`).join('');
+  const list=STUDY.filter(t=>(S.sd<0||t.d===S.sd)&&(!q||(t.t+' '+t.p.join(' ')+(t.k||'')).toLowerCase().includes(q)));
+  $('#st-list').innerHTML=list.map(t=>`<details class="topic"${q?' open':''}><summary><span>${esc(t.t)}</span><small>${esc(DOMAINS[t.d].split(',')[0])}</small></summary><div class="body"><ul>${t.p.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${t.k?`<div class="tip"><b>Exam tip:</b> ${esc(t.k)}</div>`:''}<button class="btn primary" data-prac="${t.d}">Practise this domain</button></div></details>`).join('')||'<p class="muted">No notes match your search.</p>';
+}
+document.addEventListener('click',e=>{
+  if(e.target.closest('#go-study')){S.view='study';S.sd=-1;S.sq='';render();window.scrollTo(0,0);return}
+  if(S.view!=='study')return;
+  const c=e.target.closest('[data-sd]');if(c){S.sd=+c.dataset.sd;stList();return}
+  const p=e.target.closest('[data-prac]');if(p){const cfg=S.cfg;cfg.pick='dom'+p.dataset.prac;S={view:'home',cfg};render();window.scrollTo(0,0)}
+});
+
 render();
 </script>
 
