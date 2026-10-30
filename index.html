@@ -897,20 +897,20 @@ const SETS=Array.from({length:NUM_SETS},(_,s)=>byDom.flatMap((list,d)=>list.slic
 function weighted(seed){const r=seed?rng(seed):Math.random;return byDom.flatMap((list,d)=>shuffle(list,r).slice(0,QUOTA[d]));}
 const PICKS=[
   {id:'real_omsb100',name:'OMSB 100 Practice Exam',sub:(typeof OMSB100!=='undefined'?OMSB100.length:100)+' questions, practice exam'},
-  {id:'real4',name:'Real-style paper 4 (harder)',sub:REAL4.length+' questions, full blueprint'},
-  {id:'real3',name:'Real-style paper 3 (harder)',sub:REAL3.length+' questions, full blueprint'},
-  {id:'real2',name:'Real-style paper 2 (harder)',sub:REAL2.length+' questions, full blueprint'},
-  {id:'real',name:'Real-style paper 1 (harder)',sub:REAL.length+' questions, full blueprint'},
+  {id:'real4',name:'Real-style paper 4 (harder)',sub:(typeof REAL4!=='undefined'?REAL4.length:100)+' questions, full blueprint'},
+  {id:'real3',name:'Real-style paper 3 (harder)',sub:(typeof REAL3!=='undefined'?REAL3.length:100)+' questions, full blueprint'},
+  {id:'real2',name:'Real-style paper 2 (harder)',sub:(typeof REAL2!=='undefined'?REAL2.length:100)+' questions, full blueprint'},
+  {id:'real',name:'Real-style paper 1 (harder)',sub:(typeof REAL!=='undefined'?REAL.length:100)+' questions, full blueprint'},
   ...SETS.map((q,i)=>({id:'set'+i,name:'Set '+(i+1),sub:q.length+' questions, weighted blueprint'})),
   {id:'rand',name:'Random 100',sub:'New weighted mix each time'},
   {id:'full',name:'Full bank',sub:BANK.length+' questions, full bank session'},
   ...DOMAINS.map((n,d)=>({id:'dom'+d,name:n,sub:byDom[d].length+' questions, one domain'}))
 ];
 function questionsFor(id){
-  if(id==='real')return REAL.map(q=>({...q}));
-  if(id==='real2')return REAL2.map(q=>({...q}));
-  if(id==='real3')return REAL3.map(q=>({...q}));
-  if(id==='real4')return REAL4.map(q=>({...q}));
+  if(id==='real')return (typeof REAL!=='undefined'?REAL:[]).map(q=>({...q}));
+  if(id==='real2')return (typeof REAL2!=='undefined'?REAL2:[]).map(q=>({...q}));
+  if(id==='real3')return (typeof REAL3!=='undefined'?REAL3:[]).map(q=>({...q}));
+  if(id==='real4')return (typeof REAL4!=='undefined'?REAL4:[]).map(q=>({...q}));
   if(id==='real_omsb100'||id==='omsb100')return (typeof OMSB100!=='undefined'?OMSB100:[]).map((q,i)=>({...q,id:q.id!==undefined?q.id:i}));
   if(id.startsWith('set'))return SETS[+id.slice(3)];
   if(id==='rand')return weighted();
